@@ -1,0 +1,1 @@
+a=`curl https://dresdenlabs.appspot.com/btime`;echo $a
