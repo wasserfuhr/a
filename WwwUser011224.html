@@ -1,0 +1,1380 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <title>HORIZONS Web-Interface</title>
+    <meta name="robots" content="index,nofollow">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+<!-- Include standard site Javascript functions -->
+<script language="JavaScript" src="lib/jpl_std.js" type="text/javascript"></script>
+<script language="JavaScript" src="lib/row_hiliter.js" type="text/javascript"></script>
+<!-- Safely import CSS file(s) -->
+<!-- common "safe" CSS file -->
+<link rel="StyleSheet" href="css/ssd.css" type="text/css" media="screen">
+
+<!-- Include "other" CSS file (prevents browsers with partial CSS support from loading) -->
+<style type="text/css">
+<!--
+@import "css/nav_menu.css";
+@import "css/ssd_extra.css";
+-->
+</style>
+
+<!-- Include site-global standard META tags -->
+  <meta name="Author" content="Alan Chamberlin">
+  <meta name="keywords" content="Solar System Dynamics,Solar System,Dynamics,Orbital Mechanics,Orbits">
+  <meta name="JPL-clearance" content="CL 97-0935">
+
+  </head>
+ 
+<body id="bodyID" bgcolor="#000000">
+<!-- Skip navigation link -->
+<a href="#content"><img border="0" src="images/blank.gif" alt="Skip Page Navigation" width="0" height="0"></a>
+
+<!-- black HTML-page background with 10px margins (cellpadding=10, body margin 0px) -->
+    <table border="0" cellspacing="0" cellpadding="10" align="center" bgcolor="#000000" width="100%">
+      <tr valign="top">
+        <td>
+
+          <!-- white content-"page" background with 10px border -->
+          <table border="0" cellspacing="0" cellpadding="10" align="center" bgcolor="#FFFFFF" width="750">
+
+            <tr valign="top">
+              <td>
+                <table border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" width="730">
+
+                  <!-- JPL standard header -->
+                  <tr valign="top">
+                    <td align="left" width="100%" bgcolor="#FFFFFF">
+                      
+<map name="Map">
+  <area shape="circle" coords="31,26,24" href="https://www.nasa.gov" alt="NASA">
+  <area shape="rect" coords="68,10,260,27" href="https://www.jpl.nasa.gov" alt="JPL">
+  <area shape="rect" coords="68,30,240,40" href="http://www.caltech.edu/" alt="Caltech">
+</map>
+
+<table border="0" cellpadding="0" cellspacing="0" width="730">
+
+  <!-- JPL Required Heading -->
+  <tr valign="middle">
+    <td align="left" bgcolor="#CCCCCC" width="255">
+      <img src="images/nasa_logo.gif" alt="NASA Logo - Jet Propulsion Laboratory" border="0" width="255" height="55" usemap="#Map">
+    </td>
+    <td align="center" bgcolor="#CCCCCC" width="40"><img src="images/blank.gif" width="40" alt=""></td>
+    <td align="center" bgcolor="#CCCCCC" width="1"><img src="images/black_1x1.gif" height="40" width="1" alt=""></td>
+    <td align="center" bgcolor="#CCCCCC" width="10"><img src="images/blank.gif" width="10" alt=""></td>
+    <td align="left" bgcolor="#CCCCCC" width="200" nowrap>
+      <a class="portal_link" href="https://www.nasa.gov/">+ View the NASA Portal</a>
+      <br>
+      <a class="portal_link" href="https://cneos.jpl.nasa.gov/">+ Center for Near-Earth Object Studies</a>
+    </td>
+    <td align="center" bgcolor="#CCCCCC" width="10"><img src="images/blank.gif" width="10" alt=""></td>
+
+    <!-- placeholder for future site-wide search form -->
+    <td align="center" bgcolor="#006699" width="10"><img src="images/blank.gif" width="10" alt=""></td>
+    <td align="center" bgcolor="#006699" nowrap width="140">
+      <img src="images/blank.gif" height="55" width="140" alt="">
+    </td>
+  </tr>
+
+  <!-- JPL Required Main Navigation Bar -->
+  <tr>
+    <td align="center" colspan="8">
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr bgcolor="#FFFFFF">
+          <td><a href="https://www.jpl.nasa.gov/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','portal_images/topnav_01.gif',1)"><img name="home" border="0" alt="JPL Home" src="portal_images/topnavoff_01.gif"></a></td>
+          <td><a href="https://www.jpl.nasa.gov/earth/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('earth','','portal_images/topnav_02.gif',1)"><img name="earth" border="0" alt="Earth" src="portal_images/topnavoff_02.gif"></a></td>
+          <td><a href="https://www.jpl.nasa.gov/solar_system/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('solar_system','','portal_images/topnav_03.gif',1)"><img name="solar_system" alt="Solar System" border="0" src="portal_images/topnavoff_03.gif"></a></td>
+          <td><a href="https://www.jpl.nasa.gov/stars_galaxies/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('stars','','portal_images/topnav_04.gif',1)"><img name="stars" border="0" alt="Stars & Galaxies" src="portal_images/topnavoff_04.gif"></a></td>
+          <td><a href="https://www.jpl.nasa.gov/technology/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('technology','','portal_images/topnav_05.gif',1)"><img name="technology" border="0" alt="Technology" src="portal_images/topnavoff_05.gif"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+</table>
+
+                      <?php include "include/jpl_std_head.html" ?>
+                      
+                    </td>
+                  </tr>
+
+<!-- END OF JPL REQUIRED HEADER -->
+
+                  <!-- SSD standard header -->
+                  <tr><td><img src="images/blank.gif" height="2" alt=""></td></tr>
+                  <tr><td align="left"><a href="/"><img src="images/ssd_banner.jpg" alt="JPL Solar System Dynamics" height="97" width="730" border="0"></a></td></tr>
+                  <!--<tr><td align="center"><img src="images/blank.gif" height="1" alt=""></td></tr>-->
+                  <!-- SSD standard navigation bar -->
+                  <tr>
+                    <td>
+                      <!-- Sample SSD standard top navigation bar -->
+<table border="0" cellspacing="0" cellpadding="0" width="730" bgcolor="#666666">
+  <tr>
+    <td><a href="/?bodies" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bodies','','images/nav/bodies_on.gif',1)"><img name="bodies" border="0" height="16" width="78" alt="BODIES" src="images/nav/bodies_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td><a href="/?orbits" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('orbits','','images/nav/orbits_on.gif',1)"><img name="orbits" border="0" height="16" width="75" alt="ORBITS" src="images/nav/orbits_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td><a href="/?ephemerides" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ephemerides','','images/nav/ephemerides_on.gif',1)"><img name="ephemerides" border="0" height="16" width="121" alt="EPHEMERIDES" src="images/nav/ephemerides_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td><a href="/?tools" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tools','','images/nav/tools_on.gif',1)"><img name="tools" border="0" height="16" width="74" alt="TOOLS" src="images/nav/tools_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td width="126"><a href="/?phys_data" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('phys_data','','images/nav/phys_data_on.gif',1)"><img name="phys_data" border="0" height="16" width="126" alt="PHYSICAL DATA" src="images/nav/phys_data_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td><a href="/?discovery" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('discovery','','images/nav/discovery_on.gif',1)"><img name="discovery" border="0" height="16" width="102" alt="DISCOVERY" src="images/nav/discovery_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td><a href="/?faq" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('faq','','images/nav/faq_on.gif',1)"><img name="faq" border="0" height="16" width="57" alt="FAQ" src="images/nav/faq_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" height="16" alt=""></td>
+    <td><a href="/?site_map" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('site_map','','images/nav/site_map_on.gif',1)"><img name="site_map" border="0" height="16" width="90" alt="SITE&nbsp;MAP" src="images/nav/site_map_off.gif"></a></td>
+  </tr>
+</table>
+
+                      <?php include "include/ssd_top_nav_bar.html" ?>
+<!--
+                    <table border="0" cellspacing="0" cellpadding="0" width="730">
+                      <tr><td align="left" bgcolor="#666666">
+                        <div class="navtext">SSD STANDARD NAVIGATION HEADER</div>
+                      </td></tr>
+                      <tr><td><img src="images/blank.gif" height="1" alt=""></td></tr>
+                      <tr><td align="left" width="730" bgcolor="#666666">
+                        <div class="navtext">SSD STANDARD NAVIGATION HEADER (LINE 2)</div>
+                      </td></tr>
+                    </table>
+-->
+                    </td>
+                  </tr>
+
+                  <tr><td><img src="images/blank.gif" height="10" alt=""></td></tr>
+
+<!-- START OF PAGE CONTENT -->
+
+<!--<tr width="100%">-->
+                  <tr>
+                    <td align="left"><a name="content"> </a>
+                      <!-- contents below will be displayed at the top of every page -->
+<!-- use something like <p class="notice">NOTICE: my message here</p> -->
+
+<!-- content below is for special SSD email list notification -->
+<div id="site_notice_email_list">
+  <div class="big-notice"><b>IMPORTANT:</b> 
+    The SSD Announcement email list is now available.
+    Major changes are coming in the near future,
+    including possible hostname and/or URL changes.
+    To be notified of such changes, subscribe to this email list.
+    <br><br>
+    Please visit <a href="\?email_list">this page</a> for more details.
+    <div id="site_notice_email_list_ack">
+      <br><br>
+      <button class="" onclick="ackEmailNotice()">Don't show this message again</button>
+    </div>
+  </div>
+</div>
+
+<script src="lib/site_notice.js"></script>
+<script>
+  var ls = canDoLocalStorage();
+  var key = "email_list_announcement";
+  //
+  // If localStorage is available...
+  if ( ls ) {
+    //
+    // If this message has already be acknowledged, don't show it again:
+    if ( localStorage.getItem(key) ) {
+      document.getElementById("site_notice_email_list").innerHTML = '';
+    }
+  //
+  // If localStorage is NOT available...
+  } else {
+    document.getElementById("site_notice_email_list_ack").innerHTML = '<br><br>'
+      + '<em>To not show this message again from this browser, enable "localStorage".</em>';
+  }
+  //
+  // Acknowledge message:
+  function ackEmailNotice() {
+    if ( ! ls ) return;
+    localStorage.setItem(key, true);
+    document.getElementById("site_notice_email_list").innerHTML = '';
+  }
+</script>
+
+                      <?php include "include/site_notice.html" ?>
+<div class="page_title">HORIZONS Web-Interface</div>
+<!--
+
+*** WARNING ***
+This CGI code (https://ssd.jpl.nasa.gov/horizons.cgi)
+is NOT supported or approved for scripted or API-style use.
+Such use may be blocked without notice.
+
+Please instead use the Horizons batch-mode CGI script via the following URL.
+https://ssd.jpl.nasa.gov/horizons_batch.cgi
+;
+
+-->
+
+<table cellpadding="0" cellspacing="0" border="0" width="730">
+<tr><td align="left">
+This tool provides a web-based <em>limited</em> interface to
+<a href="/?horizons">JPL's HORIZONS system</a>
+which can be used to generate ephemerides for solar-system bodies.
+Full access to <a href="/?horizons">HORIZONS</a> features is available
+via the primary <a href="/?horizons#telnet">telnet interface</a>.
+<a href="/?horizons_news">HORIZONS system news</a>
+shows recent changes and improvements.
+A <a href="/?horizons_tutorial">web-interface tutorial</a> is available
+to assist new users.
+</td></tr>
+</table>
+<h3>Current Settings</h3>
+<table border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td align="right" nowrap>Ephemeris Type [<a href="https://ssd.jpl.nasa.gov/horizons.cgi?s_type=1#top">change</a>] :&nbsp;</td> <td align="left" nowrap><b>VECTORS</b></td></tr>
+ <tr valign="top"><td align="right" nowrap>Target Body [<a href="https://ssd.jpl.nasa.gov/horizons.cgi?s_target=1#top">change</a>] :&nbsp;</td> <td align="left" nowrap><b>Earth [Geocenter]</b> [399]</td></tr>
+ <tr valign="top"><td align="right" nowrap>Coordinate Origin [<a href="https://ssd.jpl.nasa.gov/horizons.cgi?s_loc=1#top">change</a>] :&nbsp;</td> <td align="left" nowrap><b>Solar System Barycenter (SSB)</b> [500@0]</td></tr>
+ <tr valign="top"><td align="right" nowrap>Time Span [<a href="https://ssd.jpl.nasa.gov/horizons.cgi?s_time=1#top">change</a>] :&nbsp;</td> <td align="left" nowrap>Start=<b>2015-02-08</b>, Stop=<b>2025-04-09</b>, Step=<b>16</b> <b>d</b></td></tr>
+ <tr valign="top"><td align="right" nowrap>Table Settings [<a href="https://ssd.jpl.nasa.gov/horizons.cgi?s_tset=1#top">change</a>] :&nbsp;</td> <td align="left"><i>defaults</i></td></tr>
+ <tr valign="top"><td align="right" nowrap>Display/Output [<a href="https://ssd.jpl.nasa.gov/horizons.cgi?s_disp=1#top">change</a>] :&nbsp;</td> <td align="left"><i>default</i> (formatted HTML)</td></tr>
+</table>
+<hr>
+<a name="results"> </a>
+<h3>Object Data Page</h3>
+<table border="1" cellpadding="8" cellspacing="0" bgcolor="#EEEEEE">
+<tr>
+<td align="left" nowrap>
+<pre> Revised: July 31, 2013                  Earth                              399
+ 
+ GEOPHYSICAL PROPERTIES (revised Aug 15, 2018):
+  Vol. Mean Radius (km)    = 6371.01+-0.02   Mass x10^24 (kg)= 5.97219+-0.0006
+  Equ. radius, km          = 6378.137        Mass layers:
+  Polar axis, km           = 6356.752          Atmos         = 5.1   x 10^18 kg
+  Flattening               = 1/298.257223563   oceans        = 1.4   x 10^21 kg
+  Density, g/cm^3          = 5.51              crust         = 2.6   x 10^22 kg
+  J2 (IERS 2010)           = 0.00108262545     mantle        = 4.043 x 10^24 kg
+  g_p, m/s^2  (polar)      = 9.8321863685      outer core    = 1.835 x 10^24 kg
+  g_e, m/s^2  (equatorial) = 9.7803267715      inner core    = 9.675 x 10^22 kg
+  g_o, m/s^2               = 9.82022         Fluid core rad  = 3480 km
+  GM, km^3/s^2             = 398600.435436   Inner core rad  = 1215 km
+  GM 1-sigma, km^3/s^2     =      0.0014     Escape velocity = 11.186 km/s
+  Rot. Rate (rad/s)        = 0.00007292115   Surface area:
+  Mean sidereal day, hr    = 23.9344695944     land          = 1.48 x 10^8 km
+  Mean solar day 2000.0, s = 86400.002         sea           = 3.62 x 10^8 km
+  Mean solar day 1820.0, s = 86400.0         Love no., k2    = 0.299
+  Moment of inertia        = 0.3308          Atm. pressure   = 1.0 bar
+  Mean temperature, K      = 270             Volume, km^3    = 1.08321 x 10^12
+  Mean effect. IR temp, K  = 255             Magnetic moment = 0.61 gauss Rp^3
+  Geometric albedo         = 0.367           Vis. mag. V(1,0)= -3.86
+  Solar Constant (W/m^2)   = 1367.6 (mean), 1414 (perihelion), 1322 (aphelion)
+ HELIOCENTRIC ORBIT CHARACTERISTICS:
+  Obliquity to orbit, deg  = 23.4392911  Sidereal orb period  = 1.0000174 y
+  Orbital speed, km/s      = 29.79       Sidereal orb period  = 365.25636 d
+  Mean daily motion, deg/d = 0.9856474   Hill's sphere radius = 234.9       
+</pre>
+</td></tr>
+</table>
+<h3>Results</h3>
+<table border="1" cellpadding="8" cellspacing="0" bgcolor="#EEEEEE">
+<tr>
+<td align="left" nowrap>
+<pre>*******************************************************************************
+Ephemeris / WWW_USER Fri Feb  8 01:12:24 2019 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: Earth (399)                     {source: DE431mx}
+Center body name: Solar System Barycenter (0)     {source: DE431mx}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2015-Feb-08 00:00:00.0000 TDB
+Stop  time      : A.D. 2025-Apr-09 00:00:00.0000 TDB
+Step-size       : 23040 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)                                                  
+Output units    : AU-D                                                         
+Output type     : GEOMETRIC cartesian states
+Output format   : 3 (position, velocity, LT, range, range-rate)
+Reference frame : ICRF/J2000.0                                                 
+Coordinate systm: Ecliptic and Mean Equinox of Reference Epoch                 
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+   LT    RG    RR
+*******************************************************************************
+$$SOE
+2457061.500000000 = A.D. 2015-Feb-08 00:00:00.0000 TDB 
+ X =-7.377442868834274E-01 Y = 6.506042024494086E-01 Z =-1.597391322465789E-04
+ VX=-1.163626870624716E-02 VY=-1.297360491081545E-02 VZ=-2.355057707449414E-07
+ LT= 5.681045051899008E-03 RG= 9.836424587168644E-01 RR= 1.463020624248460E-04
+2457077.500000000 = A.D. 2015-Feb-24 00:00:00.0000 TDB 
+ X =-8.925821047937343E-01 Y = 4.201448721906104E-01 Z =-1.520629440921668E-04
+ VX=-7.586867277953129E-03 VY=-1.563668381218374E-02 VZ= 1.029233721452643E-06
+ LT= 5.697672658059252E-03 RG= 9.865214394777320E-01 RR= 2.049922864220158E-04
+2457093.500000000 = A.D. 2015-Mar-12 00:00:00.0000 TDB 
+ X =-9.777881289775583E-01 Y = 1.570468357780688E-01 Z =-1.482948346698170E-04
+ VX=-3.010204325824191E-03 VY=-1.704284455751460E-02 VZ= 1.003570819731300E-07
+ LT= 5.719610303274916E-03 RG= 9.903198250003359E-01 RR= 2.694253144837444E-04
+2457109.500000000 = A.D. 2015-Mar-28 00:00:00.0000 TDB 
+ X =-9.877622365620385E-01 Y =-1.182881843574565E-01 Z =-1.353082332182326E-04
+ VX= 1.762339863470804E-03 VY=-1.714156900988145E-02 VZ= 4.601400827162637E-07
+ LT= 5.745599742818462E-03 RG= 9.948197569635125E-01 RR= 2.883660540754023E-04
+2457125.500000000 = A.D. 2015-Apr-13 00:00:00.0000 TDB 
+ X =-9.226923009067002E-01 Y =-3.846249494274915E-01 Z =-1.335018475915212E-04
+ VX= 6.313497395885428E-03 VY=-1.595281830892068E-02 VZ= 7.316596033386498E-07
+ LT= 5.773489184680621E-03 RG= 9.996486641302255E-01 RR= 3.105455044135825E-04
+2457141.500000000 = A.D. 2015-Apr-29 00:00:00.0000 TDB 
+ X =-7.883489680241931E-01 Y =-6.223729975677592E-01 Z =-1.232957216345073E-04
+ VX= 1.035635553023419E-02 VY=-1.357904659946859E-02 VZ=-2.026531052650285E-07
+ LT= 5.800996447938881E-03 RG= 1.004411399122951E+00 RR= 2.855500910368862E-04
+2457157.500000000 = A.D. 2015-May-15 00:00:00.0000 TDB 
+ X =-5.956943977108972E-01 Y =-8.142161216463943E-01 Z =-1.200754540174053E-04
+ VX= 1.358226592851140E-02 VY=-1.026159370197733E-02 VZ= 9.031244666254572E-07
+ LT= 5.826692924654805E-03 RG= 1.008860606144951E+00 RR= 2.619541233431391E-04
+2457173.500000000 = A.D. 2015-May-31 00:00:00.0000 TDB 
+ X =-3.592127759553900E-01 Y =-9.466791212738773E-01 Z =-1.190465065910760E-04
+ VX= 1.578470734626126E-02 VY=-6.206534718424527E-03 VZ=-4.409199255458244E-07
+ LT= 5.847937455166493E-03 RG= 1.012538982576734E+00 RR= 2.029831403300044E-04
+2457189.500000000 = A.D. 2015-Jun-16 00:00:00.0000 TDB 
+ X =-9.658632412476445E-02 Y =-1.010788395244682E+00 Z =-1.148930097753945E-04
+ VX= 1.685064716695446E-02 VY=-1.753478051939175E-03 VZ= 1.763740315509266E-07
+ LT= 5.864418515281076E-03 RG= 1.015392589676356E+00 RR= 1.426573115122782E-04
+2457205.500000000 = A.D. 2015-Jul-02 00:00:00.0000 TDB 
+ X = 1.732711279159963E-01 Y =-1.002147059452062E+00 Z =-1.222678354046957E-04
+ VX= 1.667796957426941E-02 VY= 2.814510559691427E-03 VZ=-1.423173980928515E-07
+ LT= 5.873794787694759E-03 RG= 1.017016040919277E+00 RR= 6.809837102375267E-05
+2457221.500000000 = A.D. 2015-Jul-18 00:00:00.0000 TDB 
+ X = 4.309805556069742E-01 Y =-9.217677252532759E-01 Z =-1.220439720733208E-04
+ VX= 1.533582135706873E-02 VY= 7.183239533936393E-03 VZ=-7.589986972201434E-07
+ LT= 5.876855949013359E-03 RG= 1.017546064571342E+00 RR=-1.163334395179381E-05
+2457237.500000000 = A.D. 2015-Aug-03 00:00:00.0000 TDB 
+ X = 6.579271347451259E-01 Y =-7.751534957577115E-01 Z =-1.314511910819838E-04
+ VX= 1.286890315146472E-02 VY= 1.102989140445526E-02 VZ= 1.773084710010484E-07
+ LT= 5.872117704971476E-03 RG= 1.016725663047189E+00 RR=-8.169197312695638E-05
+2457253.500000000 = A.D. 2015-Aug-19 00:00:00.0000 TDB 
+ X = 8.378012508017041E-01 Y =-5.726841655090888E-01 Z =-1.397996992032520E-04
+ VX= 9.463342971604930E-03 VY= 1.412842702265042E-02 VZ=-1.182268007522424E-06
+ LT= 5.861164089126013E-03 RG= 1.014829103255172E+00 RR=-1.603478804892567E-04
+2457269.500000000 = A.D. 2015-Sep-04 00:00:00.0000 TDB 
+ X = 9.569580510744908E-01 Y =-3.286408445105678E-01 Z =-1.468539778463237E-04
+ VX= 5.343066453963960E-03 VY= 1.619955384813448E-02 VZ=-2.011545120048700E-07
+ LT= 5.843767335522138E-03 RG= 1.011816948742705E+00 RR=-2.082832942460860E-04
+2457285.500000000 = A.D. 2015-Sep-20 00:00:00.0000 TDB 
+ X = 1.006217192529334E+00 Y =-6.038761136921483E-02 Z =-1.624038855433504E-04
+ VX= 7.620558855403791E-04 VY= 1.711674628664662E-02 VZ=-8.564770039158337E-07
+ LT= 5.821882129227359E-03 RG= 1.008027642737795E+00 RR=-2.647204685226963E-04
+2457301.500000000 = A.D. 2015-Oct-06 00:00:00.0000 TDB 
+ X = 9.809620508040192E-01 Y = 2.122509387016931E-01 Z =-1.673880123188017E-04
+ VX=-3.910275849099535E-03 VY= 1.676023315870834E-02 VZ=-8.655401362640771E-07
+ LT= 5.796667197362923E-03 RG= 1.003661812622222E+00 RR=-2.774409138258093E-04
+2457317.500000000 = A.D. 2015-Oct-22 00:00:00.0000 TDB 
+ X = 8.820934958461699E-01 Y = 4.690325804987879E-01 Z =-1.816507715622626E-04
+ VX=-8.374175696700530E-03 VY= 1.512052593298407E-02 VZ=-7.194981159978164E-08
+ LT= 5.769972701849113E-03 RG= 9.990398040020587E-01 RR=-2.950699301825804E-04
+2457333.500000000 = A.D. 2015-Nov-07 00:00:00.0000 TDB 
+ X = 7.162920830704259E-01 Y = 6.899736811507112E-01 Z =-1.870596137970146E-04
+ VX=-1.223623965149169E-02 VY= 1.231782943301230E-02 VZ=-1.035093590795190E-06
+ LT= 5.744066034624091E-03 RG= 9.945542036215684E-01 RR=-2.671983856103215E-04
+2457349.500000000 = A.D. 2015-Nov-23 00:00:00.0000 TDB 
+ X = 4.953358214646425E-01 Y = 8.576639978441951E-01 Z =-1.921916424760788E-04
+ VX=-1.519717623085075E-02 VY= 8.500187506649845E-03 VZ= 3.525671183700975E-07
+ LT= 5.720227847789611E-03 RG= 9.904267495184926E-01 RR=-2.396957076822458E-04
+2457365.500000000 = A.D. 2015-Dec-09 00:00:00.0000 TDB 
+ X = 2.361142667595458E-01 Y = 9.584763520467805E-01 Z =-1.983333941449296E-04
+ VX=-1.700319196280093E-02 VY= 4.005550586872113E-03 VZ=-4.669517486047736E-07
+ LT= 5.701191116525142E-03 RG= 9.871306416763878E-01 RR=-1.777582301714437E-04
+2457381.500000000 = A.D. 2015-Dec-25 00:00:00.0000 TDB 
+ X =-4.145313773404124E-02 Y = 9.838438100809945E-01 Z =-1.936281922670737E-04
+ VX=-1.745811023427407E-02 VY=-8.486871113311751E-04 VZ= 9.271098329035923E-08
+ LT= 5.687249538328194E-03 RG= 9.847167322405781E-01 RR=-1.130092821308238E-04
+2457397.500000000 = A.D. 2016-Jan-10 00:00:00.0000 TDB 
+ X =-3.154262605795738E-01 Y = 9.316434626802282E-01 Z =-1.960585377638726E-04
+ VX=-1.655932648660898E-02 VY=-5.643972287315634E-03 VZ= 5.446976966335202E-07
+ LT= 5.680753871490853E-03 RG= 9.835920423920526E-01 RR=-3.550614373243989E-05
+2457413.500000000 = A.D. 2016-Jan-26 00:00:00.0000 TDB 
+ X =-5.641154827168126E-01 Y = 8.057555177606776E-01 Z =-1.870716697161197E-04
+ VX=-1.432916606989799E-02 VY=-9.976087691943813E-03 VZ=-1.546118660753048E-07
+ LT= 5.680797796916729E-03 RG= 9.835996478437807E-01 RR= 4.576736075897583E-05
+2457429.500000000 = A.D. 2016-Feb-11 00:00:00.0000 TDB 
+ X =-7.681436398681890E-01 Y = 6.165198598941597E-01 Z =-1.806966543224619E-04
+ VX=-1.099968952348228E-02 VY=-1.352223375926714E-02 VZ= 1.213529769342575E-06
+ LT= 5.688640521935771E-03 RG= 9.849575735863679E-01 RR= 1.143355500860773E-04
+2457445.500000000 = A.D. 2016-Feb-27 00:00:00.0000 TDB 
+ X =-9.116456136930570E-01 Y = 3.791124275229887E-01 Z =-1.733960246853353E-04
+ VX=-6.838628912433121E-03 VY=-1.595782741184374E-02 VZ= 7.031733954744150E-08
+ LT= 5.702352630624797E-03 RG= 9.873317516085185E-01 RR= 1.869638559721381E-04
+2457461.500000000 = A.D. 2016-Mar-14 00:00:00.0000 TDB 
+ X =-9.843076540562765E-01 Y = 1.123707141668595E-01 Z =-1.592907278533475E-04
+ VX=-2.185802399559381E-03 VY=-1.715929442332768E-02 VZ= 8.932226173480244E-07
+ LT= 5.721812629477001E-03 RG= 9.907011459616248E-01 RR= 2.253956420867015E-04
+2457477.500000000 = A.D. 2016-Mar-30 00:00:00.0000 TDB 
+ X =-9.812480713681210E-01 Y =-1.627795480902206E-01 Z =-1.549520471111418E-04
+ VX= 2.552154513303039E-03 VY=-1.702522564084019E-02 VZ= 6.264514287329515E-07
+ LT= 5.744666807037785E-03 RG= 9.946582241404583E-01 RR= 2.684959902672120E-04
+2457493.500000000 = A.D. 2016-Apr-15 00:00:00.0000 TDB 
+ X =-9.037586588030336E-01 Y =-4.256362593737321E-01 Z =-1.407143683362933E-04
+ VX= 7.060244130803957E-03 VY=-1.561631059593968E-02 VZ= 1.204467497345971E-07
+ LT= 5.769583705081746E-03 RG= 9.989724512996614E-01 RR= 2.663849673751943E-04
+2457509.500000000 = A.D. 2016-May-01 00:00:00.0000 TDB 
+ X =-7.586531580572685E-01 Y =-6.565440369537080E-01 Z =-1.363163890042005E-04
+ VX= 1.096382681411786E-02 VY=-1.308089256957081E-02 VZ= 1.022192982110946E-06
+ LT= 5.794559740642287E-03 RG= 1.003296917802450E+00 RR= 2.695513496752285E-04
+2457525.500000000 = A.D. 2016-May-17 00:00:00.0000 TDB 
+ X =-5.573087533815080E-01 Y =-8.390517506582978E-01 Z =-1.298394715174727E-04
+ VX= 1.403249761952503E-02 VY=-9.595747862273438E-03 VZ=-2.956474727765350E-07
+ LT= 5.817529430738769E-03 RG= 1.007273996356847E+00 RR= 2.292279228606093E-04
+2457541.500000000 = A.D. 2016-Jun-02 00:00:00.0000 TDB 
+ X =-3.152052683498304E-01 Y =-9.603171283093194E-01 Z =-1.240290191230524E-04
+ VX= 1.605428793680275E-02 VY=-5.473900665034087E-03 VZ= 6.325895004013944E-07
+ LT= 5.837456016663223E-03 RG= 1.010724177757188E+00 RR= 1.942016980208738E-04
+2457557.500000000 = A.D. 2016-Jun-18 00:00:00.0000 TDB 
+ X =-4.995723759602420E-02 Y =-1.012027841926994E+00 Z =-1.276013800146190E-04
+ VX= 1.689309317600069E-02 VY=-9.632793707195351E-04 VZ=-1.933520620558267E-07
+ LT= 5.852102465754788E-03 RG= 1.013260131805129E+00 RR= 1.292198259449666E-04
+2457573.500000000 = A.D. 2016-Jul-04 00:00:00.0000 TDB 
+ X = 2.191007428767362E-01 Y =-9.909817897539488E-01 Z =-1.242337545974600E-04
+ VX= 1.653999833856333E-02 VY= 3.587868178696137E-03 VZ=-4.174979538017974E-07
+ LT= 5.861653362451145E-03 RG= 1.014913818305329E+00 RR= 6.740862590209158E-05
+2457589.500000000 = A.D. 2016-Jul-20 00:00:00.0000 TDB 
+ X = 4.727173389744551E-01 Y =-8.986089137613338E-01 Z =-1.330442479144293E-04
+ VX= 1.497433234928086E-02 VY= 7.880291119272170E-03 VZ= 1.280577638531693E-07
+ LT= 5.864240959866730E-03 RG= 1.015361846909359E+00 RR=-2.632872986696233E-06
+2457605.500000000 = A.D. 2016-Aug-05 00:00:00.0000 TDB 
+ X = 6.927155749692504E-01 Y =-7.416287769346077E-01 Z =-1.373957663830134E-04
+ VX= 1.234833017872738E-02 VY= 1.163469073824083E-02 VZ=-1.108303217855473E-06
+ LT= 5.861135692187512E-03 RG= 1.014824186477686E+00 RR=-7.364888545859315E-05
+2457621.500000000 = A.D. 2016-Aug-21 00:00:00.0000 TDB 
+ X = 8.628812392864801E-01 Y =-5.308966640369978E-01 Z =-1.449316431910932E-04
+ VX= 8.798880593431585E-03 VY= 1.454849379388876E-02 VZ= 8.703729360011059E-08
+ LT= 5.851302217763209E-03 RG= 1.013121573160579E+00 RR=-1.296565459061039E-04
+2457637.500000000 = A.D. 2016-Sep-06 00:00:00.0000 TDB 
+ X = 9.706400644910215E-01 Y =-2.813425589851332E-01 Z =-1.576767234714549E-04
+ VX= 4.570136277328481E-03 VY= 1.645338917758173E-02 VZ=-9.887737534342426E-07
+ LT= 5.836691492006312E-03 RG= 1.010591804416297E+00 RR=-1.910574452413857E-04
+2457653.500000000 = A.D. 2016-Sep-22 00:00:00.0000 TDB 
+ X = 1.007191421040324E+00 Y =-1.097495336021563E-02 Z =-1.622845015166542E-04
+ VX=-3.182276132315628E-05 VY= 1.714288680872597E-02 VZ=-5.594042271054240E-07
+ LT= 5.817397926651305E-03 RG= 1.007251227129928E+00 RR=-2.186087230973219E-04
+2457669.500000000 = A.D. 2016-Oct-08 00:00:00.0000 TDB 
+ X = 9.690584233005409E-01 Y = 2.605119448637545E-01 Z =-1.772234523905811E-04
+ VX=-4.716511926848715E-03 VY= 1.656743109591440E-02 VZ=-3.274203993333270E-07
+ LT= 5.795526837216390E-03 RG= 1.003464365383534E+00 RR=-2.536830064647496E-04
+2457685.500000000 = A.D. 2016-Oct-24 00:00:00.0000 TDB 
+ X = 8.580832100932452E-01 Y = 5.124323971262588E-01 Z =-1.814930137100218E-04
+ VX=-9.081258370972716E-03 VY= 1.472861977023750E-02 VZ=-1.023214727329336E-06
+ LT= 5.772322979466893E-03 RG= 9.994467419568718E-01 RR=-2.451888664325306E-04
+2457701.500000000 = A.D. 2016-Nov-09 00:00:00.0000 TDB 
+ X = 6.816945517591759E-01 Y = 7.254711343940385E-01 Z =-1.896370227647542E-04
+ VX=-1.282422586105109E-02 VY= 1.171650477052747E-02 VZ= 3.037962181573195E-07
+ LT= 5.749515777994999E-03 RG= 9.954977974356937E-01 RR=-2.433144013325523E-04
+2457717.500000000 = A.D. 2016-Nov-25 00:00:00.0000 TDB 
+ X = 4.529230028637281E-01 Y = 8.825362913634565E-01 Z =-1.949400182789720E-04
+ VX=-1.560185238659262E-02 VY= 7.782529558862097E-03 VZ=-6.684635300842152E-07
+ LT= 5.729155792785144E-03 RG= 9.919725752752800E-01 RR=-1.996758111001833E-04
+2457733.500000000 = A.D. 2016-Dec-11 00:00:00.0000 TDB 
+ X = 1.889060330275251E-01 Y = 9.708143647891159E-01 Z =-1.923271731663723E-04
+ VX=-1.717432341774327E-02 VY= 3.177763177222746E-03 VZ= 3.248081771648838E-07
+ LT= 5.712119189750830E-03 RG= 9.890227789008869E-01 RR=-1.610834778531107E-04
+2457749.500000000 = A.D. 2016-Dec-27 00:00:00.0000 TDB 
+ X =-8.961969558394729E-02 Y = 9.829573704309461E-01 Z =-1.957394237703969E-04
+ VX=-1.741656482304304E-02 VY=-1.682609057457230E-03 VZ= 2.624226994830776E-07
+ LT= 5.700635310314281E-03 RG= 9.870344068141705E-01 RR=-9.428829202530401E-05
+2457765.500000000 = A.D. 2017-Jan-12 00:00:00.0000 TDB 
+ X =-3.608207413600572E-01 Y = 9.175575177444670E-01 Z =-1.862133349369814E-04
+ VX=-1.625699706982877E-02 VY=-6.426468202645879E-03 VZ=-5.752260796903240E-08
+ LT= 5.694389983439056E-03 RG= 9.859530619864291E-01 RR=-3.123116843523088E-05
+2457781.500000000 = A.D. 2017-Jan-28 00:00:00.0000 TDB 
+ X =-6.032549464518422E-01 Y = 7.800202569691647E-01 Z =-1.821692947073576E-04
+ VX=-1.384265813547606E-02 VY=-1.065817075283353E-02 VZ= 1.126190503488568E-06
+ LT= 5.695106712071821E-03 RG= 9.860771597022763E-01 RR= 3.758600156116011E-05
+2457797.500000000 = A.D. 2017-Feb-13 00:00:00.0000 TDB 
+ X =-7.978572823262211E-01 Y = 5.812732071419280E-01 Z =-1.722649673541333E-04
+ VX=-1.033661818510841E-02 VY=-1.401082240323706E-02 VZ= 7.127882424861757E-10
+ LT= 5.701272764762200E-03 RG= 9.871447786304018E-01 RR= 1.043721475273062E-04
+2457813.500000000 = A.D. 2017-Mar-01 00:00:00.0000 TDB 
+ X =-9.299637849151731E-01 Y = 3.374199999332534E-01 Z =-1.587968712879969E-04
+ VX=-6.065502001174370E-03 VY=-1.626803134961831E-02 VZ= 1.252731240022424E-06
+ LT= 5.713633978280588E-03 RG= 9.892850564044506E-01 RR= 1.531791687435991E-04
+2457829.500000000 = A.D. 2017-Mar-17 00:00:00.0000 TDB 
+ X =-9.897828369987227E-01 Y = 6.778618694956923E-02 Z =-1.514985193700721E-04
+ VX=-1.383181875048357E-03 VY=-1.722249143485170E-02 VZ= 5.641369128425015E-07
+ LT= 5.729899434132451E-03 RG= 9.921013327832009E-01 RR= 2.032076402910264E-04
+2457845.500000000 = A.D. 2017-Apr-02 00:00:00.0000 TDB 
+ X =-9.738165755395646E-01 Y =-2.068156723095312E-01 Z =-1.339925262009046E-04
+ VX= 3.361417503316682E-03 VY=-1.687500776004278E-02 VZ= 5.728548624027551E-07
+ LT= 5.749735070999350E-03 RG= 9.955357668423797E-01 RR= 2.175832587230624E-04
+2457861.500000000 = A.D. 2017-Apr-18 00:00:00.0000 TDB 
+ X =-8.841680729385222E-01 Y =-4.654201186267877E-01 Z =-1.273669369383532E-04
+ VX= 7.764922279268573E-03 VY=-1.526179733333805E-02 VZ= 1.085565055014994E-06
+ LT= 5.770806717682565E-03 RG= 9.991842093671865E-01 RR= 2.378450506611911E-04
+2457877.500000000 = A.D. 2017-May-04 00:00:00.0000 TDB 
+ X =-7.284769395372517E-01 Y =-6.892104765611108E-01 Z =-1.150217710985172E-04
+ VX= 1.156160137461164E-02 VY=-1.253391734834051E-02 VZ=-7.378706266704836E-08
+ LT= 5.791925641391754E-03 RG= 1.002840837655289E+00 RR= 2.155348722066951E-04
+2457893.500000000 = A.D. 2017-May-20 00:00:00.0000 TDB 
+ X =-5.191128086600507E-01 Y =-8.619747971880808E-01 Z =-1.071098769238102E-04
+ VX= 1.445259893861108E-02 VY=-8.940370789153775E-03 VZ= 1.000731450686706E-06
+ LT= 5.811442004302086E-03 RG= 1.006219991142536E+00 RR= 2.025848869169441E-04
+2457909.500000000 = A.D. 2017-Jun-05 00:00:00.0000 TDB 
+ X =-2.716671710575420E-01 Y =-9.717719617120943E-01 Z =-1.051756463892027E-04
+ VX= 1.627586454223295E-02 VY=-4.707385616903246E-03 VZ=-1.286117893383140E-07
+ LT= 5.827677751538646E-03 RG= 1.009031123634002E+00 RR= 1.515189063201460E-04
+2457925.500000000 = A.D. 2017-Jun-21 00:00:00.0000 TDB 
+ X =-4.513852261003488E-03 Y =-1.011176600662189E+00 Z =-9.822425911482804E-05
+ VX= 1.692542006407827E-02 VY=-1.864980924418158E-04 VZ= 1.176370988113193E-07
+ LT= 5.840127208065940E-03 RG= 1.011186680211414E+00 RR= 1.109425709032806E-04
+2457941.500000000 = A.D. 2017-Jul-07 00:00:00.0000 TDB 
+ X = 2.632453712275054E-01 Y =-9.775620205934558E-01 Z =-1.044618126215800E-04
+ VX= 1.633888420548955E-02 VY= 4.351431940852362E-03 VZ= 1.227065624513657E-07
+ LT= 5.847054550405572E-03 RG= 1.012386112356218E+00 RR= 4.676182747554014E-05
+2457957.500000000 = A.D. 2017-Jul-23 00:00:00.0000 TDB 
+ X = 5.123093270006187E-01 Y =-8.736243524105375E-01 Z =-1.042620858980639E-04
+ VX= 1.460537551706542E-02 VY= 8.575584342915396E-03 VZ=-9.136861485937928E-07
+ LT= 5.849206956412578E-03 RG= 1.012758789903667E+00 RR=-9.251088425877699E-06
+2457973.500000000 = A.D. 2017-Aug-08 00:00:00.0000 TDB 
+ X = 7.247066851014869E-01 Y =-7.064567111466017E-01 Z =-1.120855453808897E-04
+ VX= 1.178811641648153E-02 VY= 1.218918054842143E-02 VZ= 1.944309133584872E-07
+ LT= 5.845215118401488E-03 RG= 1.012067624577542E+00 RR=-6.738843350764510E-05
+2457989.500000000 = A.D. 2017-Aug-24 00:00:00.0000 TDB 
+ X = 8.850081286573921E-01 Y =-4.879561654308932E-01 Z =-1.214946735870664E-04
+ VX= 8.111346168247059E-03 VY= 1.496572338410415E-02 VZ=-1.112787718462434E-06
+ LT= 5.836819582815744E-03 RG= 1.010613982652445E+00 RR=-1.227071553384003E-04
+2458005.500000000 = A.D. 2017-Sep-09 00:00:00.0000 TDB 
+ X = 9.808727607767562E-01 Y =-2.335222915410258E-01 Z =-1.267458619828192E-04
+ VX= 3.800550992030603E-03 VY= 1.664781428757673E-02 VZ=-2.417677418980550E-07
+ LT= 5.823383990386429E-03 RG= 1.008287681936510E+00 RR=-1.584654556212767E-04
+2458021.500000000 = A.D. 2017-Sep-25 00:00:00.0000 TDB 
+ X = 1.004734876527212E+00 Y = 3.853114741309407E-02 Z =-1.415932309304699E-04
+ VX=-8.550551713634716E-04 VY= 1.714060968464155E-02 VZ=-5.654629466136091E-07
+ LT= 5.807130292920527E-03 RG= 1.005473441459178E+00 RR=-1.975748988064542E-04
+2458037.500000000 = A.D. 2017-Oct-11 00:00:00.0000 TDB 
+ X = 9.537246338950663E-01 Y = 3.079876250045664E-01 Z =-1.456115960710078E-04
+ VX=-5.487608572692462E-03 VY= 1.633769725891812E-02 VZ=-9.114068232004963E-07
+ LT= 5.788346169155273E-03 RG= 1.002221071249736E+00 RR=-2.014114183107567E-04
+2458053.500000000 = A.D. 2017-Oct-27 00:00:00.0000 TDB 
+ X = 8.307575140688143E-01 Y = 5.546449644310195E-01 Z =-1.569494708463199E-04
+ VX=-9.791937393985607E-03 VY= 1.428201625774134E-02 VZ= 1.082897034006722E-07
+ LT= 5.769130276129173E-03 RG= 9.988939425102245E-01 RR=-2.135133430950652E-04
+2458069.500000000 = A.D. 2017-Nov-12 00:00:00.0000 TDB 
+ X = 6.443463845313855E-01 Y = 7.590865928568562E-01 Z =-1.620216706011748E-04
+ VX=-1.337357486346013E-02 VY= 1.111015088495188E-02 VZ=-9.026113822075811E-07
+ LT= 5.750614736132106E-03 RG= 9.956880761386672E-01 RR=-1.844431888912855E-04
+2458085.500000000 = A.D. 2017-Nov-28 00:00:00.0000 TDB 
+ X = 4.080374294003662E-01 Y = 9.051243942931219E-01 Z =-1.628818064466492E-04
+ VX=-1.596575128806479E-02 VY= 7.015270904394490E-03 VZ= 4.057054595666115E-07
+ LT= 5.734204809931403E-03 RG= 9.928467854944348E-01 RR=-1.661196413958501E-04
+2458101.500000000 = A.D. 2017-Dec-14 00:00:00.0000 TDB 
+ X = 1.400575862623047E-01 Y = 9.806988620629362E-01 Z =-1.671240894054915E-04
+ VX=-1.732355563872216E-02 VY= 2.361022576853808E-03 VZ=-3.752074131692457E-08
+ LT= 5.721514293646598E-03 RG= 9.906494907138560E-01 RR=-1.118894508937170E-04
+2458117.500000000 = A.D. 2017-Dec-30 00:00:00.0000 TDB 
+ X =-1.389002396647230E-01 Y = 9.793443636964215E-01 Z =-1.582599701922911E-04
+ VX=-1.730672294142781E-02 VY=-2.524634310283674E-03 VZ= 1.713832415634154E-07
+ LT= 5.712827571127136E-03 RG= 9.891454313340806E-01 RR=-6.933100305204724E-05
+2458133.500000000 = A.D. 2018-Jan-15 00:00:00.0000 TDB 
+ X =-4.066651340799911E-01 Y = 9.010944497147066E-01 Z =-1.563253868167712E-04
+ VX=-1.594412577658029E-02 VY=-7.202195074158905E-03 VZ= 9.655331397791756E-07
+ LT= 5.709729425899556E-03 RG= 9.886090041166800E-01 RR=-6.006531680914219E-06
+2458149.500000000 = A.D. 2018-Jan-31 00:00:00.0000 TDB 
+ X =-6.421596665654249E-01 Y = 7.519906858009566E-01 Z =-1.441786130951602E-04
+ VX=-1.330216064690088E-02 VY=-1.129794391537755E-02 VZ=-1.828366082915182E-08
+ LT= 5.711222715651793E-03 RG= 9.888675592223072E-01 RR= 4.668214135823358E-05
+2458165.500000000 = A.D. 2018-Feb-16 00:00:00.0000 TDB 
+ X =-8.270817028269147E-01 Y = 5.442957107661422E-01 Z =-1.321763709413467E-04
+ VX=-9.657510751361941E-03 VY=-1.449567287814829E-02 VZ= 1.415876294368171E-06
+ LT= 5.718410615266714E-03 RG= 9.901121054608321E-01 RR= 9.859255065832358E-05
+2458181.500000000 = A.D. 2018-Mar-04 00:00:00.0000 TDB 
+ X =-9.472566216677769E-01 Y = 2.945330540760202E-01 Z =-1.217298778414046E-04
+ VX=-5.285766681639902E-03 VY=-1.651449626142849E-02 VZ= 4.499031568825458E-07
+ LT= 5.729258414825167E-03 RG= 9.919903437307042E-01 RR= 1.440663364369397E-04
+2458197.500000000 = A.D. 2018-Mar-20 00:00:00.0000 TDB 
+ X =-9.943135507005165E-01 Y = 2.247644055171958E-02 Z =-1.026674661773008E-04
+ VX=-5.585058623575542E-04 VY=-1.726829165192840E-02 VZ= 1.029120583298246E-06
+ LT= 5.744143193862074E-03 RG= 9.945675633294865E-01 RR= 1.681133759546064E-04
+2458213.500000000 = A.D. 2018-Apr-05 00:00:00.0000 TDB 
+ X =-9.653764146918695E-01 Y =-2.507842547115160E-01 Z =-9.398142850138191E-05
+ VX= 4.134485292182347E-03 VY=-1.668234547200102E-02 VZ= 1.091968201283469E-06
+ LT= 5.760610884003594E-03 RG= 9.974188554900332E-01 RR= 1.928326142915394E-04
+2458229.500000000 = A.D. 2018-Apr-21 00:00:00.0000 TDB 
+ X =-8.637753556307828E-01 Y =-5.048394877455986E-01 Z =-7.697392339528355E-05
+ VX= 8.478368717426866E-03 VY=-1.486849810483943E-02 VZ= 2.258811820838255E-07
+ LT= 5.778321028244549E-03 RG= 1.000485271909241E+00 RR= 1.827103311510490E-04
+2458245.500000000 = A.D. 2018-May-07 00:00:00.0000 TDB 
+ X =-6.979766099486545E-01 Y =-7.208607510062336E-01 Z =-6.766474814699041E-05
+ VX= 1.211509451151908E-02 VY=-1.198314982138382E-02 VZ= 1.221917164651375E-06
+ LT= 5.795155136804573E-03 RG= 1.003400007452265E+00 RR= 1.815125565795505E-04
+2458261.500000000 = A.D. 2018-May-23 00:00:00.0000 TDB 
+ X =-4.808364475521102E-01 Y =-8.836580461162186E-01 Z =-6.021308322972540E-05
+ VX= 1.484753938045928E-02 VY=-8.240787416680271E-03 VZ=-8.906078676321438E-08
+ LT= 5.810226657030512E-03 RG= 1.006009560285628E+00 RR= 1.419469829042081E-04
+2458277.500000000 = A.D. 2018-Jun-08 00:00:00.0000 TDB 
+ X =-2.288153260142534E-01 Y =-9.818022418564609E-01 Z =-5.047916014397374E-05
+ VX= 1.647245554145190E-02 VY=-3.959375205694226E-03 VZ= 6.111727423723345E-07
+ LT= 5.822375906026982E-03 RG= 1.008113137540389E+00 RR= 1.172220984697210E-04
+2458293.500000000 = A.D. 2018-Jun-24 00:00:00.0000 TDB 
+ X = 3.987556228835894E-02 Y =-1.008717869240477E+00 Z =-5.278437772527635E-05
+ VX= 1.690009590415102E-02 VY= 6.072833994744575E-04 VZ= 1.533711821875351E-07
+ LT= 5.830418803754638E-03 RG= 1.009505722113081E+00 RR= 6.074576966068308E-05
+2458309.500000000 = A.D. 2018-Jul-10 00:00:00.0000 TDB 
+ X = 3.056723469069910E-01 Y =-9.628509711957898E-01 Z =-4.766977553729034E-05
+ VX= 1.613123820886112E-02 VY= 5.099422431258398E-03 VZ=-4.614129059298933E-07
+ LT= 5.834467319947046E-03 RG= 1.010206700962091E+00 RR= 2.067856342579571E-05
+2458325.500000000 = A.D. 2018-Jul-26 00:00:00.0000 TDB 
+ X = 5.496334163268065E-01 Y =-8.473634405805039E-01 Z =-5.428540545528739E-05
+ VX= 1.417876754233423E-02 VY= 9.239934742786159E-03 VZ= 3.073738174475302E-07
+ LT= 5.833335546125750E-03 RG= 1.010010740399532E+00 RR=-3.609710869143911E-05
+2458341.500000000 = A.D. 2018-Aug-11 00:00:00.0000 TDB 
+ X = 7.541232086685964E-01 Y =-6.705812841436051E-01 Z =-5.884575078432373E-05
+ VX= 1.122038218190028E-02 VY= 1.273821161942387E-02 VZ=-1.112071112796005E-06
+ LT= 5.828356750887548E-03 RG= 1.009148688726854E+00 RR=-7.972623598660100E-05
+2458357.500000000 = A.D. 2018-Aug-27 00:00:00.0000 TDB 
+ X = 9.039990440698006E-01 Y =-4.447226618760390E-01 Z =-6.421457104337309E-05
+ VX= 7.403577220362164E-03 VY= 1.532050795699803E-02 VZ= 1.335090861335415E-08
+ LT= 5.818652054292696E-03 RG= 1.007468372599723E+00 RR=-1.196567099879268E-04
+2458373.500000000 = A.D. 2018-Sep-12 00:00:00.0000 TDB 
+ X = 9.879972305280571E-01 Y =-1.859520969066419E-01 Z =-7.694738052482215E-05
+ VX= 3.011308895329257E-03 VY= 1.683028284901041E-02 VZ=-7.648699812023078E-07
+ LT= 5.806383153689663E-03 RG= 1.005344078311494E+00 RR=-1.536404132008696E-04
+2458389.500000000 = A.D. 2018-Sep-28 00:00:00.0000 TDB 
+ X = 9.989390030366930E-01 Y = 8.700559927905224E-02 Z =-8.040596382653773E-05
+ VX=-1.653221975216045E-03 VY= 1.708255648263313E-02 VZ=-6.281594775971274E-07
+ LT= 5.791232677946982E-03 RG= 1.002720854754187E+00 RR=-1.647415593681267E-04
+2458405.500000000 = A.D. 2018-Oct-14 00:00:00.0000 TDB 
+ X = 9.352454008884915E-01 Y = 3.540249650355309E-01 Z =-9.345769332800290E-05
+ VX=-6.274570008589457E-03 VY= 1.607133470871099E-02 VZ=-6.379017595165157E-08
+ LT= 5.775569284237902E-03 RG= 1.000008822203997E+00 RR=-1.786074530873603E-04
+2458421.500000000 = A.D. 2018-Oct-30 00:00:00.0000 TDB 
+ X = 8.006181152781326E-01 Y = 5.945952923785705E-01 Z =-9.800894977432547E-05
+ VX=-1.045522137932618E-02 VY= 1.381321420203540E-02 VZ=-1.022736847993100E-06
+ LT= 5.759709135485814E-03 RG= 9.972627225741575E-01 RR=-1.577993387150150E-04
+2458437.500000000 = A.D. 2018-Nov-15 00:00:00.0000 TDB 
+ X = 6.044560807040060E-01 Y = 7.901184537028508E-01 Z =-1.030827093022653E-04
+ VX=-1.390647650344615E-02 VY= 1.045243520622441E-02 VZ= 3.348814200243726E-07
+ LT= 5.745564868990167E-03 RG= 9.948137187473226E-01 RR=-1.479597364318287E-04
+2458453.500000000 = A.D. 2018-Dec-01 00:00:00.0000 TDB 
+ X = 3.613908321085162E-01 Y = 9.246924247847821E-01 Z =-1.084161515791990E-04
+ VX=-1.629119004076919E-02 VY= 6.258132289523950E-03 VZ=-4.490038853019739E-07
+ LT= 5.733956664065406E-03 RG= 9.928038203696173E-01 RR=-1.013686215781956E-04
+2458469.500000000 = A.D. 2018-Dec-17 00:00:00.0000 TDB 
+ X = 8.984502880562580E-02 Y = 9.873094001087421E-01 Z =-1.023307726161127E-04
+ VX=-1.741808267353961E-02 VY= 1.513057975330632E-03 VZ= 3.097063768725889E-07
+ LT= 5.725784882549430E-03 RG= 9.913889202607395E-01 RR=-7.168913009770539E-05
+2458485.500000000 = A.D. 2019-Jan-02 00:00:00.0000 TDB 
+ X =-1.887205777738229E-01 Y = 9.726040685251022E-01 Z =-1.030260010659838E-04
+ VX=-1.718119530977564E-02 VY=-3.347441937625224E-03 VZ= 6.867507993518989E-07
+ LT= 5.722061496882642E-03 RG= 9.907442360171590E-01 RR=-1.341477674067247E-05
+2458501.500000000 = A.D. 2019-Jan-18 00:00:00.0000 TDB 
+ X =-4.524870326672178E-01 Y = 8.814378079682736E-01 Z =-9.038644930472377E-05
+ VX=-1.556603197924888E-02 VY=-7.962066217845433E-03 VZ= 8.285436916448323E-08
+ LT= 5.722361680764293E-03 RG= 9.907962112450821E-01 RR= 2.559700870943186E-05
+2458517.500000000 = A.D. 2019-Feb-03 00:00:00.0000 TDB 
+ X =-6.805617589015762E-01 Y = 7.213198130777259E-01 Z =-8.124985838206564E-05
+ VX=-1.275567660725347E-02 VY=-1.192819904294222E-02 VZ= 1.412935481751764E-06
+ LT= 5.727574823167569E-03 RG= 9.916988388715762E-01 RR= 7.762365547377454E-05
+2458533.500000000 = A.D. 2019-Feb-19 00:00:00.0000 TDB 
+ X =-8.552072163834489E-01 Y = 5.049715021822364E-01 Z =-6.849877545851131E-05
+ VX=-8.942912568116291E-03 VY=-1.492365678503182E-02 VZ= 2.741178622694643E-07
+ LT= 5.736039431625360E-03 RG= 9.931644403937314E-01 RR= 1.127929631960069E-04
+2458549.500000000 = A.D. 2019-Mar-07 00:00:00.0000 TDB 
+ X =-9.634081612073874E-01 Y = 2.498972255042444E-01 Z =-4.979333096978245E-05
+ VX=-4.492178061474777E-03 VY=-1.675342156490992E-02 VZ= 1.332717175412497E-06
+ LT= 5.748320650201959E-03 RG= 9.952908674729685E-01 RR= 1.418352940840399E-04
+2458565.500000000 = A.D. 2019-Mar-23 00:00:00.0000 TDB 
+ X =-9.973731440204546E-01 Y =-2.391306583344388E-02 Z =-3.886111485948019E-05
+ VX= 2.518568404435774E-04 VY=-1.725262874724916E-02 VZ= 1.011197691140454E-06
+ LT= 5.762002313225824E-03 RG= 9.976597739916085E-01 RR= 1.617464822649595E-04
+2458581.500000000 = A.D. 2019-Apr-08 00:00:00.0000 TDB 
+ X =-9.556810828757553E-01 Y =-2.954245036377929E-01 Z =-1.811871781420498E-05
+ VX= 4.923912824035584E-03 VY=-1.646586245296738E-02 VZ= 6.549490968056218E-07
+ LT= 5.777256413843989E-03 RG= 1.000300939639917E+00 RR= 1.586811371647968E-04
+2458597.500000000 = A.D. 2019-Apr-24 00:00:00.0000 TDB 
+ X =-8.423098373375207E-01 Y =-5.441556841600712E-01 Z =-7.132575819043489E-06
+ VX= 9.145114755487200E-03 VY=-1.444645364450924E-02 VZ= 1.415488609315631E-06
+ LT= 5.791642068108080E-03 RG= 1.002791738463251E+00 RR= 1.576595900495732E-04
+2458613.500000000 = A.D. 2019-May-10 00:00:00.0000 TDB 
+ X =-6.666720792087913E-01 Y =-7.521805128133087E-01 Z = 6.140481933540711E-06
+ VX= 1.266510662209541E-02 VY=-1.139137786579664E-02 VZ= 4.760082978910515E-08
+ LT= 5.804976851085917E-03 RG= 1.005100584563739E+00 RR= 1.242656524154916E-04
+2458629.500000000 = A.D. 2019-May-26 00:00:00.0000 TDB 
+ X =-4.424038151428853E-01 Y =-9.045309666622851E-01 Z = 1.794137989975278E-05
+ VX= 1.520063973795945E-02 VY=-7.550840412158607E-03 VZ= 1.003595690777155E-06
+ LT= 5.815512218540078E-03 RG= 1.006924726891678E+00 RR= 1.044248687457908E-04
+2458645.500000000 = A.D. 2019-Jun-11 00:00:00.0000 TDB 
+ X =-1.860980351136538E-01 Y =-9.908610963560727E-01 Z = 2.025085913969384E-05
+ VX= 1.663099429737001E-02 VY=-3.176113642867031E-03 VZ= 9.882149569770916E-08
+ LT= 5.822794377936538E-03 RG= 1.008185593705454E+00 RR= 5.166914496916028E-05
+2458661.500000000 = A.D. 2019-Jun-27 00:00:00.0000 TDB 
+ X = 8.335263518475310E-02 Y =-1.005336805483999E+00 Z = 2.929561199940778E-05
+ VX= 1.685769761798303E-02 VY= 1.377379462920059E-03 VZ= 2.486310557568798E-08
+ LT= 5.826263642322456E-03 RG= 1.008786278213204E+00 RR= 2.022554388806925E-05
+2458677.500000000 = A.D. 2019-Jul-13 00:00:00.0000 TDB 
+ X = 3.467742180205723E-01 Y =-9.471332314836828E-01 Z = 2.460242117641713E-05
+ VX= 1.586320482873616E-02 VY= 5.846244547829635E-03 VZ= 3.789505274646834E-07
+ LT= 5.825301617880679E-03 RG= 1.008619708844608E+00 RR=-3.591247643077316E-05
+2458693.500000000 = A.D. 2019-Jul-29 00:00:00.0000 TDB 
+ X = 5.851017865043140E-01 Y =-8.205845653187345E-01 Z = 2.491043062074768E-05
+ VX= 1.375010214196177E-02 VY= 9.889507783800600E-03 VZ=-8.959044320212389E-07
+ LT= 5.820688551393534E-03 RG= 1.007820981142190E+00 RR=-6.942516749919209E-05
+2458709.500000000 = A.D. 2019-Aug-14 00:00:00.0000 TDB 
+ X = 7.811495440994712E-01 Y =-6.343591736166539E-01 Z = 1.920971819516766E-05
+ VX= 1.060719081623834E-02 VY= 1.324023406590622E-02 VZ= 1.949376981891341E-07
+ LT= 5.811807909521398E-03 RG= 1.006283345667327E+00 RR=-1.125544480107214E-04
+2458725.500000000 = A.D. 2019-Aug-30 00:00:00.0000 TDB 
+ X = 9.204768446185799E-01 Y =-4.017647106811481E-01 Z = 9.194372316897179E-06
+ VX= 6.688545679463908E-03 VY= 1.566864988837531E-02 VZ=-9.998306661694595E-07
+ LT= 5.800565876738899E-03 RG= 1.004336848030690E+00 RR=-1.378612927639209E-04
+2458741.500000000 = A.D. 2019-Sep-15 00:00:00.0000 TDB 
+ X = 9.921880858123798E-01 Y =-1.392206528007693E-01 Z = 5.217849919551450E-06
+ VX= 2.222146055715558E-03 VY= 1.694745578843880E-02 VZ=-4.103664030083341E-07
+ LT= 5.786537868684105E-03 RG= 1.001907973728891E+00 RR=-1.543545145452179E-04
+2458757.500000000 = A.D. 2019-Oct-01 00:00:00.0000 TDB 
+ X = 9.903866940998696E-01 Y = 1.341438080733024E-01 Z =-8.791264781540431E-06
+ VX=-2.467616829091544E-03 VY= 1.700658570034702E-02 VZ=-2.951705424165537E-07
+ LT= 5.772226402349552E-03 RG= 9.994300201473649E-01 RR=-1.626594154944072E-04
+2458773.500000000 = A.D. 2019-Oct-17 00:00:00.0000 TDB 
+ X = 9.140273962728445E-01 Y = 3.979083821573338E-01 Z =-1.276691738034842E-05
+ VX=-7.020718818332663E-03 VY= 1.576054823837928E-02 VZ=-9.406947680172271E-07
+ LT= 5.757520230138730E-03 RG= 9.968837253618782E-01 RR=-1.463310858801744E-04
+2458789.500000000 = A.D. 2019-Nov-02 00:00:00.0000 TDB 
+ X = 7.680377268942689E-01 Y = 6.320655586110596E-01 Z =-2.131284773368024E-05
+ VX=-1.112207013322083E-02 VY= 1.330404384644488E-02 VZ= 2.761358823725154E-07
+ LT= 5.744794078845963E-03 RG= 9.946802605709354E-01 RR=-1.338536302079325E-04
+2458805.500000000 = A.D. 2019-Nov-18 00:00:00.0000 TDB 
+ X = 5.627044175769806E-01 Y = 8.179930216926327E-01 Z =-2.674355958671920E-05
+ VX=-1.438765681527891E-02 VY= 9.789054075430539E-03 VZ=-7.847358378657689E-07
+ LT= 5.734216753495341E-03 RG= 9.928488534584259E-01 RR=-8.925840481123051E-05
+2458821.500000000 = A.D. 2019-Dec-04 00:00:00.0000 TDB 
+ X = 3.132510181850079E-01 Y = 9.408798933562862E-01 Z =-2.445960295895797E-05
+ VX=-1.658326502114002E-02 VY= 5.457306983631608E-03 VZ= 3.435230178256237E-07
+ LT= 5.727326102979419E-03 RG= 9.916557743059597E-01 RR=-6.055957106343869E-05
+2458837.500000000 = A.D. 2019-Dec-20 00:00:00.0000 TDB 
+ X = 3.903784421950296E-02 Y = 9.903837318999791E-01 Z =-2.771112191282738E-05
+ VX=-1.747846922729335E-02 VY= 6.872977600340472E-04 VZ= 2.357049849319683E-07
+ LT= 5.724421216681320E-03 RG= 9.911528088349153E-01 RR=-1.647823522800086E-06
+2458853.500000000 = A.D. 2020-Jan-05 00:00:00.0000 TDB 
+ X =-2.386515578514603E-01 Y = 9.622241452984469E-01 Z =-1.657804954590847E-05
+ VX=-1.699194014801483E-02 VY=-4.180818110741882E-03 VZ= 1.677666715049852E-07
+ LT= 5.725720452802428E-03 RG= 9.913777645958615E-01 RR= 3.254950066138305E-05
+2458869.500000000 = A.D. 2020-Jan-21 00:00:00.0000 TDB 
+ X =-4.976685293145374E-01 Y = 8.585718569624973E-01 Z =-1.135960831821258E-05
+ VX=-1.517805047048590E-02 VY=-8.697237053756999E-03 VZ= 1.258964755335803E-06
+ LT= 5.731513346655133E-03 RG= 9.923807730741090E-01 RR= 8.709869826705178E-05
+2458885.500000000 = A.D. 2020-Feb-06 00:00:00.0000 TDB 
+ X =-7.177542582807132E-01 Y = 6.875900832752494E-01 Z = 2.135555797863231E-06
+ VX=-1.215243588697002E-02 VY=-1.251971220109741E-02 VZ= 1.754434980539512E-07
+ LT= 5.740619140463386E-03 RG= 9.939573923982465E-01 RR= 1.147258953634755E-04
+2458901.500000000 = A.D. 2020-Feb-22 00:00:00.0000 TDB 
+ X =-8.818512001690600E-01 Y = 4.632982715531519E-01 Z = 1.801827517691240E-05
+ VX=-8.226061597131885E-03 VY=-1.533894705352401E-02 VZ= 1.452957021103477E-06
+ LT= 5.753259410364677E-03 RG= 9.961459872872087E-01 RR= 1.482259255335332E-04
+2458917.500000000 = A.D. 2020-Mar-09 00:00:00.0000 TDB 
+ X =-9.776231495290666E-01 Y = 2.034141538919102E-01 Z = 2.983427301155875E-05
+ VX=-3.685200513673142E-03 VY=-1.692563973023871E-02 VZ= 7.245695615406667E-07
+ LT= 5.767208143307734E-03 RG= 9.985611355289057E-01 RR= 1.600529641580909E-04
+2458933.500000000 = A.D. 2020-Mar-25 00:00:00.0000 TDB 
+ X =-9.986723679315817E-01 Y =-7.155937721762315E-02 Z = 5.129710567394802E-05
+ VX= 1.071635783191474E-03 VY=-1.722495960301852E-02 VZ= 9.355606305272356E-07
+ LT= 5.782638753192060E-03 RG= 1.001232862809266E+00 RR= 1.621944211525212E-04
+2458949.500000000 = A.D. 2020-Apr-10 00:00:00.0000 TDB 
+ X =-9.441583292375428E-01 Y =-3.405795952026313E-01 Z = 6.254302218981317E-05
+ VX= 5.678290439632211E-03 VY=-1.619680095841526E-02 VZ= 1.417165708204160E-06
+ LT= 5.796932992417345E-03 RG= 1.003707833609286E+00 RR= 1.545218469224357E-04
+2458965.500000000 = A.D. 2020-Apr-26 00:00:00.0000 TDB 
+ X =-8.193716154915728E-01 Y =-5.836875468544011E-01 Z = 7.998300525410776E-05
+ VX= 9.818596594228129E-03 VY=-1.399738113845796E-02 VZ= 2.696514077054853E-07
+ LT= 5.810243213060028E-03 RG= 1.006012426873277E+00 RR= 1.242705597344584E-04
+2458981.500000000 = A.D. 2020-May-12 00:00:00.0000 TDB 
+ X =-6.343337485979332E-01 Y =-7.830663609240581E-01 Z = 9.242769974839612E-05
+ VX= 1.316146430880821E-02 VY=-1.078944740712940E-02 VZ= 1.317772098713263E-06
+ LT= 5.820313490108380E-03 RG= 1.007756041293741E+00 RR= 9.932210092063579E-05
+2458997.500000000 = A.D. 2020-May-28 00:00:00.0000 TDB 
+ X =-4.032631798640132E-01 Y =-9.248666524393993E-01 Z = 9.932284715552749E-05
+ VX= 1.553706968840670E-02 VY=-6.824452091083866E-03 VZ= 3.135456013912611E-08
+ LT= 5.827264815629831E-03 RG= 1.008959625997752E+00 RR= 4.576995334842105E-05
+2459013.500000000 = A.D. 2020-Jun-13 00:00:00.0000 TDB 
+ X =-1.434294655268994E-01 Y =-9.991637949180109E-01 Z = 1.107628582408012E-04
+ VX= 1.675447159928623E-02 VY=-2.416825200273846E-03 VZ= 4.332786502647336E-07
+ LT= 5.829842399380239E-03 RG= 1.009405920789403E+00 RR= 1.161017568618480E-05
+2459029.500000000 = A.D. 2020-Jun-29 00:00:00.0000 TDB 
+ X = 1.264748073287889E-01 Y =-1.001149694630974E+00 Z = 1.083656280565998E-04
+ VX= 1.676913653130372E-02 VY= 2.167880203166692E-03 VZ= 2.981488649759483E-07
+ LT= 5.828115010321903E-03 RG= 1.009106832645412E+00 RR=-4.905254589469203E-05
+2459045.500000000 = A.D. 2020-Jul-15 00:00:00.0000 TDB 
+ X = 3.868312181019847E-01 Y =-9.309099838037521E-01 Z = 1.128206640526246E-04
+ VX= 1.558872469420498E-02 VY= 6.565894045385804E-03 VZ=-5.823605147582697E-07
+ LT= 5.822203184118712E-03 RG= 1.008083231669027E+00 RR=-8.139310372011694E-05
+2459061.500000000 = A.D. 2020-Jul-31 00:00:00.0000 TDB 
+ X = 6.191295970387554E-01 Y =-7.933389727993199E-01 Z = 1.071021021693507E-04
+ VX= 1.326627343593521E-02 VY= 1.051919437714720E-02 VZ= 3.540397906682425E-07
+ LT= 5.812100681507491E-03 RG= 1.006334037565316E+00 RR=-1.309150763161737E-04
+2459077.500000000 = A.D. 2020-Aug-16 00:00:00.0000 TDB 
+ X = 8.064129941935284E-01 Y =-5.982815661805448E-01 Z = 1.006079790083566E-04
+ VX= 9.997399882960393E-03 VY= 1.372973295765765E-02 VZ=-1.051601084304120E-06
+ LT= 5.799272586780260E-03 RG= 1.004112921815860E+00 RR=-1.515895930351488E-04
+2459093.500000000 = A.D. 2020-Sep-01 00:00:00.0000 TDB 
+ X = 9.347468503538723E-01 Y =-3.592641132387919E-01 Z = 9.580345285814457E-05
+ VX= 5.946085336571641E-03 VY= 1.595884504284485E-02 VZ=-2.024901450085414E-07
+ LT= 5.783662961107309E-03 RG= 1.001410198912534E+00 RR=-1.751088534218449E-04
+2459109.500000000 = A.D. 2020-Sep-17 00:00:00.0000 TDB 
+ X = 9.942541327268267E-01 Y =-9.355172223180597E-02 Z = 8.181606276921455E-05
+ VX= 1.427358587544543E-03 VY= 1.705690433790892E-02 VZ=-6.362888144532231E-07
+ LT= 5.767696482598656E-03 RG= 9.986456888560524E-01 RR=-1.767850762627663E-04
+2459125.500000000 = A.D. 2020-Oct-03 00:00:00.0000 TDB 
+ X = 9.794878270283764E-01 Y = 1.795553066605029E-01 Z = 7.765540298008375E-05
+ VX=-3.260970134198787E-03 VY= 1.686906580488211E-02 VZ=-8.532363637331282E-07
+ LT= 5.751315897714713E-03 RG= 9.958094785033327E-01 RR=-1.658453116811273E-04
+2459141.500000000 = A.D. 2020-Oct-19 00:00:00.0000 TDB 
+ X = 8.907825486734252E-01 Y = 4.396506241573193E-01 Z = 6.565015058670386E-05
+ VX=-7.776615948578309E-03 VY= 1.542644409377417E-02 VZ= 1.263167140692514E-07
+ LT= 5.737233237328076E-03 RG= 9.933711414436126E-01 RR=-1.459957774389464E-04
+2459157.500000000 = A.D. 2020-Nov-04 00:00:00.0000 TDB 
+ X = 7.337161529698195E-01 Y = 6.666104546759269E-01 Z = 6.009378512859743E-05
+ VX=-1.173558048899931E-02 VY= 1.276539742459693E-02 VZ=-9.712255340189289E-07
+ LT= 5.725368050794901E-03 RG= 9.913167480797147E-01 RR=-1.019226664808373E-04
+2459173.500000000 = A.D. 2020-Nov-20 00:00:00.0000 TDB 
+ X = 5.196061985995274E-01 Y = 8.427087222710974E-01 Z = 5.774530837250615E-05
+ VX=-1.485798609565126E-02 VY= 9.084811785067625E-03 VZ= 3.547586700978418E-07
+ LT= 5.717904896106077E-03 RG= 9.900245429025271E-01 RR=-6.510093362294988E-05
+2459189.500000000 = A.D. 2020-Dec-06 00:00:00.0000 TDB 
+ X = 2.645507884251159E-01 Y = 9.534387746745284E-01 Z = 5.236440879035534E-05
+ VX=-1.682381028667961E-02 VY= 4.667126410579846E-03 VZ=-2.680113698802314E-07
+ LT= 5.714648827286898E-03 RG= 9.894607720628686E-01 RR=-9.429414099950575E-07
+2459205.500000000 = A.D. 2020-Dec-22 00:00:00.0000 TDB 
+ X =-1.188898588832658E-02 Y = 9.897218187033275E-01 Z = 6.029984014237024E-05
+ VX=-1.749170001039657E-02 VY=-1.696137660637870E-04 VZ= 1.784197651577874E-07
+ LT= 5.716568920521744E-03 RG= 9.897932259007159E-01 RR= 4.050153028970045E-05
+2459221.500000000 = A.D. 2021-Jan-07 00:00:00.0000 TDB 
+ X =-2.877840166721093E-01 Y = 9.482503800899228E-01 Z = 6.126089034557741E-05
+ VX=-1.677674835181636E-02 VY=-4.982551624326786E-03 VZ= 8.946173348767473E-07
+ LT= 5.723298045917011E-03 RG= 9.909583378454982E-01 RR= 1.043168079368203E-04
+2459237.500000000 = A.D. 2021-Jan-23 00:00:00.0000 TDB 
+ X =-5.415431950017171E-01 Y = 8.321687018395498E-01 Z = 7.424363868885098E-05
+ VX=-1.472539482062796E-02 VY=-9.421383975261811E-03 VZ= 1.260245908664455E-07
+ LT= 5.734289292700949E-03 RG= 9.928614132325354E-01 RR= 1.352217884250917E-04
+2459253.500000000 = A.D. 2021-Feb-08 00:00:00.0000 TDB 
+ X =-7.530620284316093E-01 Y = 6.509750174370915E-01 Z = 8.622447124578289E-05
+ VX=-1.154712960862900E-02 VY=-1.308508640054817E-02 VZ= 1.496901495167950E-06
+ LT= 5.749095244565485E-03 RG= 9.954249843295129E-01 RR= 1.784570708392903E-04
+2459269.500000000 = A.D. 2021-Feb-24 00:00:00.0000 TDB 
+ X =-9.061109573918465E-01 Y = 4.190644884247274E-01 Z = 9.863834640761251E-05
+ VX=-7.467844286947046E-03 VY=-1.569903785948001E-02 VZ= 4.899654174148209E-07
+ LT= 5.765842361624661E-03 RG= 9.983246577610765E-01 RR= 1.881014497888133E-04
+2459285.500000000 = A.D. 2021-Mar-12 00:00:00.0000 TDB 
+ X =-9.894182981764519E-01 Y = 1.551191847590739E-01 Z = 1.189994790356374E-04
+ VX=-2.879204491545462E-03 VY=-1.708587820453175E-02 VZ= 1.147270722761105E-06
+ LT= 5.784205525261659E-03 RG= 1.001504140983742E+00 RR= 1.980922879428715E-04
+2459301.500000000 = A.D. 2021-Mar-28 00:00:00.0000 TDB 
+ X =-9.972671107169995E-01 Y =-1.204029670350557E-01 Z = 1.300163323969686E-04
+ VX= 1.883361539917120E-03 VY=-1.713067318225665E-02 VZ= 1.188635611995325E-06
+ LT= 5.801560863476772E-03 RG= 1.004509124643935E+00 RR= 1.835418983479016E-04
+2459317.500000000 = A.D. 2021-Apr-13 00:00:00.0000 TDB 
+ X =-9.302603479502045E-01 Y =-3.864439816960452E-01 Z = 1.499720796703102E-04
+ VX= 6.439950877356586E-03 VY=-1.591362284809496E-02 VZ= 4.609650373134975E-07
+ LT= 5.817880285540398E-03 RG= 1.007334744982597E+00 RR= 1.577359488475121E-04
+2459333.500000000 = A.D. 2021-Apr-29 00:00:00.0000 TDB 
+ X =-7.942014677344693E-01 Y =-6.232048771782744E-01 Z = 1.618350727453950E-04
+ VX= 1.044444589312132E-02 VY=-1.351026777838592E-02 VZ= 1.498052849454025E-06
+ LT= 5.830528973182071E-03 RG= 1.009524797358125E+00 RR= 1.234944958738405E-04
+2459349.500000000 = A.D. 2021-May-15 00:00:00.0000 TDB 
+ X =-6.001514526175641E-01 Y =-8.137605575076013E-01 Z = 1.727150220824376E-04
+ VX= 1.365799483113123E-02 VY=-1.015821268706516E-02 VZ= 4.257071811079588E-08
+ LT= 5.839811742620708E-03 RG= 1.011132059062778E+00 RR= 6.872236765725189E-05
+2459365.500000000 = A.D. 2021-May-31 00:00:00.0000 TDB 
+ X =-3.628673213590374E-01 Y =-9.445178810814117E-01 Z = 1.847073195412731E-04
+ VX= 1.582199258005138E-02 VY=-6.104316162757208E-03 VZ= 8.013280191055124E-07
+ LT= 5.843805057004809E-03 RG= 1.011823480014966E+00 RR= 2.406729029793963E-05
+2459381.500000000 = A.D. 2021-Jun-16 00:00:00.0000 TDB 
+ X =-9.981730649073774E-02 Y =-1.006755508533277E+00 Z = 1.846053256569390E-04
+ VX= 1.685124275720388E-02 VY=-1.626144862553081E-03 VZ= 1.074193277470543E-07
+ LT= 5.843044207065785E-03 RG= 1.011691742931754E+00 RR=-4.439627532878919E-05
+2459397.500000000 = A.D. 2021-Jul-02 00:00:00.0000 TDB 
+ X = 1.697664420453656E-01 Y =-9.962596919063383E-01 Z = 1.916107487457470E-04
+ VX= 1.665553717677372E-02 VY= 2.926387421825942E-03 VZ=-3.049631989201972E-07
+ LT= 5.836857967535979E-03 RG= 1.010620628760730E+00 RR=-8.696695905931644E-05
+2459413.500000000 = A.D. 2021-Jul-18 00:00:00.0000 TDB 
+ X = 4.267439881387411E-01 Y =-9.140032512214783E-01 Z = 1.856912116028924E-04
+ VX= 1.526282211656748E-02 VY= 7.290992962610167E-03 VZ= 3.346173270919161E-07
+ LT= 5.825870461440378E-03 RG= 1.008718201053801E+00 RR=-1.493713803215994E-04
+2459429.500000000 = A.D. 2021-Aug-03 00:00:00.0000 TDB 
+ X = 6.524399528110353E-01 Y =-7.659018269377619E-01 Z = 1.825026574375014E-04
+ VX= 1.278375372407443E-02 VY= 1.112216589282608E-02 VZ=-9.967050004028358E-07
+ LT= 5.810881952762790E-03 RG= 1.006123021224486E+00 RR=-1.767732955977875E-04
+2459445.500000000 = A.D. 2021-Aug-19 00:00:00.0000 TDB 
+ X = 8.305668464769868E-01 Y =-5.621742928827023E-01 Z = 1.764234299347516E-04
+ VX= 9.340401396141571E-03 VY= 1.418178779924792E-02 VZ= 2.058678538540476E-08
+ LT= 5.792477076071617E-03 RG= 1.002936315610378E+00 RR=-2.141798920397664E-04
+2459461.500000000 = A.D. 2021-Sep-04 00:00:00.0000 TDB 
+ X = 9.477781421178866E-01 Y =-3.174266194637730E-01 Z = 1.633228922279497E-04
+ VX= 5.209335895277754E-03 VY= 1.623762111364538E-02 VZ=-9.162247965253958E-07
+ LT= 5.772754350486515E-03 RG= 9.995214315336111E-01 RR=-2.170625106569892E-04
+2459477.500000000 = A.D. 2021-Sep-20 00:00:00.0000 TDB 
+ X = 9.947472693934061E-01 Y =-4.901277430655446E-02 Z = 1.581397559093120E-04
+ VX= 6.252560335821681E-04 VY= 1.710098798401404E-02 VZ=-7.478027671921695E-07
+ LT= 5.752150691268028E-03 RG= 9.959540185264805E-01 RR=-2.170735261244045E-04
+2459493.500000000 = A.D. 2021-Oct-06 00:00:00.0000 TDB 
+ X = 9.672923347290651E-01 Y = 2.232695145928731E-01 Z = 1.429488481987439E-04
+ VX=-4.056913552512656E-03 VY= 1.672069088828504E-02 VZ=-2.256076831977105E-07
+ LT= 5.733503855162474E-03 RG= 9.927254189384475E-01 RR=-1.924005090689397E-04
+2459509.500000000 = A.D. 2021-Oct-22 00:00:00.0000 TDB 
+ X = 8.662667928734343E-01 Y = 4.789726358770679E-01 Z = 1.367949107572602E-04
+ VX=-8.490910987258241E-03 VY= 1.504035191277351E-02 VZ=-1.119656174185095E-06
+ LT= 5.716984161597472E-03 RG= 9.898651226642444E-01 RR=-1.530283055955490E-04
+2459525.500000000 = A.D. 2021-Nov-07 00:00:00.0000 TDB 
+ X = 6.985866451644478E-01 Y = 6.984444502436249E-01 Z = 1.290910408006291E-04
+ VX=-1.234866435203007E-02 VY= 1.220133605297756E-02 VZ= 3.060243300673429E-07
+ LT= 5.705346792365429E-03 RG= 9.878501746432675E-01 RR=-1.059437082345529E-04
+2459541.500000000 = A.D. 2021-Nov-23 00:00:00.0000 TDB 
+ X = 4.762582354017511E-01 Y = 8.640803060009196E-01 Z = 1.219195025528903E-04
+ VX=-1.526657256868264E-02 VY= 8.372061826051110E-03 VZ=-6.809513547957069E-07
+ LT= 5.698352159456112E-03 RG= 9.866390914974927E-01 RR=-3.719419899151187E-05
+2459557.500000000 = A.D. 2021-Dec-09 00:00:00.0000 TDB 
+ X = 2.160714337568990E-01 Y = 9.625918874674461E-01 Z = 1.251521517326131E-04
+ VX=-1.703949453418422E-02 VY= 3.844221118581328E-03 VZ= 1.868956418608160E-07
+ LT= 5.697805761065810E-03 RG= 9.865444855489098E-01 RR= 1.892268574527801E-05
+2459573.500000000 = A.D. 2021-Dec-25 00:00:00.0000 TDB 
+ X =-6.169025904838304E-02 Y = 9.855115043805683E-01 Z = 1.217580141216510E-04
+ VX=-1.746009049704777E-02 VY=-9.968365364025329E-04 VZ= 3.648833145695231E-07
+ LT= 5.702980378815520E-03 RG= 9.874404428384131E-01 RR= 9.592849500340032E-05
+2459589.500000000 = A.D. 2022-Jan-10 00:00:00.0000 TDB 
+ X =-3.353485642787710E-01 Y = 9.308079473675445E-01 Z = 1.323793843295854E-04
+ VX=-1.650794355316301E-02 VY=-5.796037667192382E-03 VZ= 2.227094341319489E-08
+ LT= 5.714151176451398E-03 RG= 9.893746064917555E-01 RR= 1.424306303269633E-04
+2459605.500000000 = A.D. 2022-Jan-26 00:00:00.0000 TDB 
+ X =-5.830548059897174E-01 Y = 8.027614898243874E-01 Z = 1.393708256273769E-04
+ VX=-1.426056033283357E-02 VY=-1.010636972057461E-02 VZ= 1.332447978841145E-06
+ LT= 5.730230904408183E-03 RG= 9.921587250823348E-01 RR= 2.032779687020622E-04
+2459621.500000000 = A.D. 2022-Feb-11 00:00:00.0000 TDB 
+ X =-7.855748893495778E-01 Y = 6.115832474014887E-01 Z = 1.518232710371150E-04
+ VX=-1.088613562407548E-02 VY=-1.361870920822837E-02 VZ= 3.094645981356907E-07
+ LT= 5.749939669613967E-03 RG= 9.955711919943532E-01 RR= 2.238920070398357E-04
+2459637.500000000 = A.D. 2022-Feb-27 00:00:00.0000 TDB 
+ X =-9.272724002310537E-01 Y = 3.728479684587806E-01 Z = 1.697018763446223E-04
+ VX=-6.717373886660226E-03 VY=-1.603521941361136E-02 VZ= 1.364696758440657E-06
+ LT= 5.772195703602848E-03 RG= 9.994247048241435E-01 RR= 2.502806418144827E-04
+2459653.500000000 = A.D. 2022-Mar-15 00:00:00.0000 TDB 
+ X =-9.977621731338379E-01 Y = 1.052897745447121E-01 Z = 1.806552792433456E-04
+ VX=-2.052706821779688E-03 VY=-1.718180732026963E-02 VZ= 9.228977792938497E-07
+ LT= 5.794590302389270E-03 RG= 1.003302209404905E+00 RR= 2.382579892371839E-04
+2459669.500000000 = A.D. 2022-Mar-31 00:00:00.0000 TDB 
+ X =-9.926178514410543E-01 Y =-1.700927524299180E-01 Z = 2.016191358115469E-04
+ VX= 2.691239464612387E-03 VY=-1.702690290066610E-02 VZ= 6.469623505657300E-07
+ LT= 5.816442429027124E-03 RG= 1.007085787844768E+00 RR= 2.231990340915911E-04
+2459685.500000000 = A.D. 2022-Apr-16 00:00:00.0000 TDB 
+ X =-9.130291430975059E-01 Y =-4.324978631013092E-01 Z = 2.122896864999452E-04
+ VX= 7.173687774246955E-03 VY=-1.557123758523587E-02 VZ= 1.421948013627985E-06
+ LT= 5.834922057333312E-03 RG= 1.010285436299799E+00 RR= 1.828604821119371E-04
+2459701.500000000 = A.D. 2022-May-02 00:00:00.0000 TDB 
+ X =-7.661341933007740E-01 Y =-6.625651032852422E-01 Z = 2.265304420435508E-04
+ VX= 1.107486654858056E-02 VY=-1.300688859077751E-02 VZ= 7.473009066162218E-08
+ LT= 5.849987620517742E-03 RG= 1.012893957703398E+00 RR= 1.313825098611663E-04
+2459717.500000000 = A.D. 2022-May-18 00:00:00.0000 TDB 
+ X =-5.634123049770893E-01 Y =-8.436437283479784E-01 Z = 2.378690357584523E-04
+ VX= 1.409915096822102E-02 VY=-9.505460250749106E-03 VZ= 1.130062496511018E-06
+ LT= 5.859143714975290E-03 RG= 1.014479286314981E+00 RR= 7.450822328917090E-05
+2459733.500000000 = A.D. 2022-Jun-03 00:00:00.0000 TDB 
+ X =-3.203123159647319E-01 Y =-9.632813184456844E-01 Z = 2.404736845827897E-04
+ VX= 1.609850747018945E-02 VY=-5.353310265974886E-03 VZ=-2.509392423615177E-08
+ LT= 5.862964561749806E-03 RG= 1.015140845426259E+00 RR= 1.906668139995010E-07
+2459749.500000000 = A.D. 2022-Jun-19 00:00:00.0000 TDB 
+ X =-5.475708288627344E-02 Y =-1.013139491169707E+00 Z = 2.485763603611904E-04
+ VX= 1.690155283326141E-02 VY=-8.548788935043884E-04 VZ= 3.200038302123642E-10
+ LT= 5.859945833384501E-03 RG= 1.014618168812305E+00 RR=-5.851281197814166E-05
+2459765.500000000 = A.D. 2022-Jul-05 00:00:00.0000 TDB 
+ X = 2.141915826878374E-01 Y =-9.901805069446061E-01 Z = 2.424339570026925E-04
+ VX= 1.650475054336057E-02 VY= 3.709274685420105E-03 VZ= 1.396570221353567E-07
+ LT= 5.851074775293230E-03 RG= 1.013082192717659E+00 RR=-1.358950090997159E-04
+2459781.500000000 = A.D. 2022-Jul-21 00:00:00.0000 TDB 
+ X = 4.670328735847657E-01 Y =-8.961195819636564E-01 Z = 2.413323035634893E-04
+ VX= 1.492148439150279E-02 VY= 7.980766756230984E-03 VZ=-9.634518777397043E-07
+ LT= 5.836275064032768E-03 RG= 1.010519702147782E+00 RR=-1.809938667724198E-04
+2459797.500000000 = A.D. 2022-Aug-06 00:00:00.0000 TDB 
+ X = 6.857924639635873E-01 Y =-7.375666622158886E-01 Z = 2.329579593295263E-04
+ VX= 1.224779508947468E-02 VY= 1.171502699409599E-02 VZ= 7.852292010395176E-08
+ LT= 5.816712406768784E-03 RG= 1.007132533041678E+00 RR=-2.394598119589561E-04
+2459813.500000000 = A.D. 2022-Aug-22 00:00:00.0000 TDB 
+ X = 8.543348150904879E-01 Y =-5.257970113666990E-01 Z = 2.207489140976862E-04
+ VX= 8.690334116020276E-03 VY= 1.461038611226372E-02 VZ=-1.139960727435826E-06
+ LT= 5.793828086912606E-03 RG= 1.003170235886180E+00 RR=-2.568284076675628E-04
+2459829.500000000 = A.D. 2022-Sep-07 00:00:00.0000 TDB 
+ X = 9.600534931738240E-01 Y =-2.755925006743003E-01 Z = 2.133261576079835E-04
+ VX= 4.437426622120122E-03 VY= 1.646542788372596E-02 VZ=-5.808121908532352E-07
+ LT= 5.768739617481591E-03 RG= 9.988263020621881E-01 RR=-2.779078196166629E-04
+2459845.500000000 = A.D. 2022-Sep-23 00:00:00.0000 TDB 
+ X = 9.945439759678613E-01 Y =-5.174889852645044E-03 Z = 1.953459999583704E-04
+ VX=-1.706531028171078E-04 VY= 1.713589275172866E-02 VZ=-6.463776641050872E-07
+ LT= 5.744084831843417E-03 RG= 9.945574582592042E-01 RR=-2.598125397636501E-04
+2459861.500000000 = A.D. 2022-Oct-09 00:00:00.0000 TDB 
+ X = 9.541978681352680E-01 Y = 2.657166057895445E-01 Z = 1.875314277271191E-04
+ VX=-4.840439700261220E-03 VY= 1.650740857627167E-02 VZ=-1.248496277715928E-06
+ LT= 5.720676188067598E-03 RG= 9.905043772312381E-01 RR=-2.346732685225371E-04
+2459877.500000000 = A.D. 2022-Oct-25 00:00:00.0000 TDB 
+ X = 8.412669759224634E-01 Y = 5.165684221527228E-01 Z = 1.738191732526279E-04
+ VX=-9.206090560136687E-03 VY= 1.464176619612772E-02 VZ= 1.672379395170177E-08
+ LT= 5.701618754133362E-03 RG= 9.872046848329810E-01 RR=-1.836558355226132E-04
+2459893.500000000 = A.D. 2022-Nov-10 00:00:00.0000 TDB 
+ X = 6.632123012392291E-01 Y = 7.278590265355499E-01 Z = 1.647115047353391E-04
+ VX=-1.290661563543754E-02 VY= 1.160093848380124E-02 VZ=-1.070099007555100E-06
+ LT= 5.687138989012147E-03 RG= 9.846975912198588E-01 RR=-1.177809739377113E-04
+2459909.500000000 = A.D. 2022-Nov-26 00:00:00.0000 TDB 
+ X = 4.331780888387683E-01 Y = 8.828942412265363E-01 Z = 1.620587208366923E-04
+ VX=-1.566730281046193E-02 VY= 7.634145713676550E-03 VZ= 2.092931431870756E-07
+ LT= 5.679850173371252E-03 RG= 9.834355719130857E-01 RR=-4.737368549368201E-05
+2459925.500000000 = A.D. 2022-Dec-12 00:00:00.0000 TDB 
+ X = 1.685810964922842E-01 Y = 9.687603593603680E-01 Z = 1.550103594648062E-04
+ VX=-1.719499734566469E-02 VY= 3.033051068076892E-03 VZ=-1.257527366598729E-07
+ LT= 5.679176875584140E-03 RG= 9.833189940150558E-01 RR= 4.021901000812398E-05
+2459941.500000000 = A.D. 2022-Dec-28 00:00:00.0000 TDB 
+ X =-1.100532435770077E-01 Y = 9.783987607606160E-01 Z = 1.620970220672002E-04
+ VX=-1.739493582720793E-02 VY=-1.847394756437154E-03 VZ=-4.089658015079193E-08
+ LT= 5.686395609989039E-03 RG= 9.845688791319650E-01 RR= 1.085554956087743E-04
+2459957.500000000 = A.D. 2023-Jan-13 00:00:00.0000 TDB 
+ X =-3.805871704560708E-01 Y = 9.106184424642619E-01 Z = 1.635667770689050E-04
+ VX=-1.620763889624940E-02 VY=-6.567287973002685E-03 VZ= 9.437522437090363E-07
+ LT= 5.700154448347611E-03 RG= 9.869511481455843E-01 RR= 1.906133214671447E-04
+2459973.500000000 = A.D. 2023-Jan-29 00:00:00.0000 TDB 
+ X =-6.218598885178098E-01 Y = 7.708204329339934E-01 Z = 1.744841848330106E-04
+ VX=-1.374187245005198E-02 VY=-1.078482787325874E-02 VZ= 5.539361298342626E-08
+ LT= 5.720020088007078E-03 RG= 9.903907770272614E-01 RR= 2.346079895797479E-04
+2459989.500000000 = A.D. 2023-Feb-14 00:00:00.0000 TDB 
+ X =-8.147920344407847E-01 Y = 5.703595606931839E-01 Z = 1.877790757698248E-04
+ VX=-1.022699052503371E-02 VY=-1.411146433081317E-02 VZ= 1.401580522141818E-06
+ LT= 5.744234611131964E-03 RG= 9.945833917391019E-01 RR= 2.858102047422630E-04
+2460005.500000000 = A.D. 2023-Mar-02 00:00:00.0000 TDB 
+ X =-9.448089206901251E-01 Y = 3.251655740518679E-01 Z = 1.981097888624837E-04
+ VX=-5.924954342374573E-03 VY=-1.632209950080799E-02 VZ= 6.452200976063012E-07
+ LT= 5.770886201600794E-03 RG= 9.991979715810119E-01 RR= 2.907982197060665E-04
+2460021.500000000 = A.D. 2023-Mar-18 00:00:00.0000 TDB 
+ X =-1.002463932983560E+00 Y = 5.485960097246065E-02 Z = 2.182810013235662E-04
+ VX=-1.241715631318165E-03 VY=-1.725656639836239E-02 VZ= 9.039025485866447E-07
+ LT= 5.798412046314438E-03 RG= 1.003963923853004E+00 RR= 2.969100570966692E-04
+2460037.500000000 = A.D. 2023-Apr-03 00:00:00.0000 TDB 
+ X =-9.841524998019320E-01 Y =-2.198188639131102E-01 Z = 2.277303070373558E-04
+ VX= 3.496081549253504E-03 VY=-1.685400707932306E-02 VZ= 1.234465853829788E-06
+ LT= 5.824049775006781E-03 RG= 1.008402958970041E+00 RR= 2.619504148878641E-04
+2460053.500000000 = A.D. 2023-Apr-19 00:00:00.0000 TDB 
+ X =-8.924256685818485E-01 Y =-4.779861890805036E-01 Z = 2.445491047074170E-04
+ VX= 7.899141069218282E-03 VY=-1.521959583659627E-02 VZ= 1.392565298175607E-07
+ LT= 5.846965526022528E-03 RG= 1.012370698262117E+00 RR= 2.226065983563234E-04
+2460069.500000000 = A.D. 2023-May-05 00:00:00.0000 TDB 
+ X =-7.348566398576836E-01 Y =-7.006911435195811E-01 Z = 2.547005759970355E-04
+ VX= 1.165715761489917E-02 VY=-1.245632707349543E-02 VZ= 1.267381229816464E-06
+ LT= 5.864305646332114E-03 RG= 1.015373047023648E+00 RR= 1.592505427260721E-04
+2460085.500000000 = A.D. 2023-May-21 00:00:00.0000 TDB 
+ X =-5.240201607994598E-01 Y =-8.721027224948024E-01 Z = 2.607765899821041E-04
+ VX= 1.453725600904563E-02 VY=-8.835616677043745E-03 VZ=-1.002244109582769E-07
+ LT= 5.876175825588650E-03 RG= 1.017428304850798E+00 RR= 8.624696302705285E-05
+2460101.500000000 = A.D. 2023-Jun-06 00:00:00.0000 TDB 
+ X =-2.756732866457352E-01 Y =-9.801202371993716E-01 Z = 2.696595629151639E-04
+ VX= 1.631410009427342E-02 VY=-4.601197718466237E-03 VZ= 4.229604826407358E-07
+ LT= 5.880349918547757E-03 RG= 1.018151026642950E+00 RR= 1.214507602530733E-05
+2460117.500000000 = A.D. 2023-Jun-22 00:00:00.0000 TDB 
+ X =-8.034520751390557E-03 Y =-1.017670099947807E+00 Z = 2.650298297468603E-04
+ VX= 1.693263395918868E-02 VY=-5.815899069852129E-05 VZ= 2.632928226753041E-08
+ LT= 5.877755692311660E-03 RG= 1.017701850294228E+00 RR=-7.552204611154853E-05
+2460133.500000000 = A.D. 2023-Jul-08 00:00:00.0000 TDB 
+ X = 2.594897990679036E-01 Y =-9.822033563445846E-01 Z = 2.664590554456479E-04
+ VX= 1.631641924894978E-02 VY= 4.457298581598658E-03 VZ=-7.833691149647251E-07
+ LT= 5.867365133462885E-03 RG= 1.015902780799076E+00 RR=-1.417748687340044E-04
+2460149.500000000 = A.D. 2023-Jul-24 00:00:00.0000 TDB 
+ X = 5.079043645297807E-01 Y =-8.764782596190529E-01 Z = 2.568567027145017E-04
+ VX= 1.453702974176348E-02 VY= 8.679915987095936E-03 VZ= 3.872768314586518E-08
+ LT= 5.850634417925518E-03 RG= 1.013005947202982E+00 RR=-2.214565428174351E-04
+2460165.500000000 = A.D. 2023-Aug-09 00:00:00.0000 TDB 
+ X = 7.190935540861877E-01 Y =-7.079427038050616E-01 Z = 2.465292952286412E-04
+ VX= 1.170979201386848E-02 VY= 1.226884803257457E-02 VZ=-1.308493844388189E-06
+ LT= 5.828063134612325E-03 RG= 1.009097850644733E+00 RR=-2.628147649944283E-04
+2460181.500000000 = A.D. 2023-Aug-25 00:00:00.0000 TDB 
+ X = 8.777771251169220E-01 Y =-4.883239985821639E-01 Z = 2.367035709351702E-04
+ VX= 7.994211386197594E-03 VY= 1.501116096652835E-02 VZ=-4.256033495359673E-07
+ LT= 5.801315015761308E-03 RG= 1.004466557431547E+00 RR=-3.117817679513053E-04
+2460197.500000000 = A.D. 2023-Sep-10 00:00:00.0000 TDB 
+ X = 9.718265582356280E-01 Y =-2.333940846586056E-01 Z = 2.172143483419887E-04
+ VX= 3.681039783468497E-03 VY= 1.667393005627301E-02 VZ=-1.012334728494243E-06
+ LT= 5.772397857321221E-03 RG= 9.994597066554549E-01 RR=-3.144345264243909E-04
+2460213.500000000 = A.D. 2023-Sep-26 00:00:00.0000 TDB 
+ X = 9.935941127927040E-01 Y = 3.865628641094857E-02 Z = 2.073131758109378E-04
+ VX=-9.818225023170044E-04 VY= 1.711195577279156E-02 VZ=-1.212978321509588E-06
+ LT= 5.742862518988754E-03 RG= 9.943458213489704E-01 RR=-3.158344304654472E-04
+2460229.500000000 = A.D. 2023-Oct-12 00:00:00.0000 TDB 
+ X = 9.406541286601744E-01 Y = 3.075380558887513E-01 Z = 1.880883059910583E-04
+ VX=-5.614883434775151E-03 VY= 1.628884905746975E-02 VZ=-3.802922389970070E-07
+ LT= 5.715749765784262E-03 RG= 9.896513936545915E-01 RR=-2.750689650327892E-04
+2460245.500000000 = A.D. 2023-Oct-28 00:00:00.0000 TDB 
+ X = 8.158153843219405E-01 Y = 5.529560272748576E-01 Z = 1.767847983190038E-04
+ VX=-9.888203608095619E-03 VY= 1.418759382318225E-02 VZ=-1.444977444518028E-06
+ LT= 5.692080662921553E-03 RG= 9.855532155336989E-01 RR=-2.250851214217603E-04
+2460261.500000000 = A.D. 2023-Nov-13 00:00:00.0000 TDB 
+ X = 6.279226707321006E-01 Y = 7.557901603352173E-01 Z = 1.671436738661357E-04
+ VX=-1.346210586044539E-02 VY= 1.098934711141253E-02 VZ= 3.828452563988691E-08
+ LT= 5.675032878804112E-03 RG= 9.826014832147748E-01 RR=-1.501331377738672E-04
+2460277.500000000 = A.D. 2023-Nov-29 00:00:00.0000 TDB 
+ X = 3.906269668082845E-01 Y = 8.996665275080850E-01 Z = 1.565351754429333E-04
+ VX=-1.600480292787434E-02 VY= 6.881137172333631E-03 VZ=-6.493441664938533E-07
+ LT= 5.664689244734763E-03 RG= 9.808105384933204E-01 RR=-6.237589848788441E-05
+2460293.500000000 = A.D. 2023-Dec-15 00:00:00.0000 TDB 
+ X = 1.221337221488793E-01 Y = 9.729383384778044E-01 Z = 1.585993862196511E-04
+ VX=-1.733554400632591E-02 VY= 2.201201583085683E-03 VZ=-2.900123029674936E-08
+ LT= 5.663324031878036E-03 RG= 9.805741592147204E-01 RR= 2.486185374675359E-05
+2460309.500000000 = A.D. 2023-Dec-31 00:00:00.0000 TDB 
+ X =-1.565642180589752E-01 Y = 9.691419642819979E-01 Z = 1.547299286457503E-04
+ VX=-1.727766850310217E-02 VY=-2.666389261851132E-03 VZ= 5.192416255111232E-07
+ LT= 5.669866455148932E-03 RG= 9.817069446887591E-01 RR= 1.232088794890932E-04
+2460325.500000000 = A.D. 2024-Jan-16 00:00:00.0000 TDB 
+ X =-4.235898368478501E-01 Y = 8.885147052094075E-01 Z = 1.634541580194774E-04
+ VX=-1.586842775437029E-02 VY=-7.349052633777222E-03 VZ=-1.456566625726009E-07
+ LT= 5.684960831391511E-03 RG= 9.843204549187274E-01 RR= 1.950212090678147E-04
+2460341.500000000 = A.D. 2024-Feb-01 00:00:00.0000 TDB 
+ X =-6.576517528263188E-01 Y = 7.374075040794836E-01 Z = 1.715115289792486E-04
+ VX=-1.320817630150468E-02 VY=-1.141325570613964E-02 VZ= 1.263403820380856E-06
+ LT= 5.706596990258234E-03 RG= 9.880666396981875E-01 RR= 2.734229640716207E-04
+2460357.500000000 = A.D. 2024-Feb-17 00:00:00.0000 TDB 
+ X =-8.407126376445456E-01 Y = 5.279853011187420E-01 Z = 1.812794074823851E-04
+ VX=-9.519496370829394E-03 VY=-1.458055410134568E-02 VZ= 3.335813750304045E-07
+ LT= 5.733685638707802E-03 RG= 9.927568937836299E-01 RR= 3.070668334522025E-04
+2460373.500000000 = A.D. 2024-Mar-04 00:00:00.0000 TDB 
+ X =-9.587288991975317E-01 Y = 2.771793701901239E-01 Z = 1.994998929943263E-04
+ VX=-5.147891313732828E-03 VY=-1.657208885002724E-02 VZ= 1.156503989078866E-06
+ LT= 5.763925469035378E-03 RG= 9.979927580978289E-01 RR= 3.426790927747227E-04
+2460389.500000000 = A.D. 2024-Mar-20 00:00:00.0000 TDB 
+ X =-1.003355729687701E+00 Y = 4.568818754236483E-03 Z = 2.085714257467748E-04
+ VX=-4.070128216473973E-04 VY=-1.727168494297939E-02 VZ= 1.056446220705277E-06
+ LT= 5.794959612436896E-03 RG= 1.003366153457445E+00 RR= 3.283623508534010E-04
+2460405.500000000 = A.D. 2024-Apr-05 00:00:00.0000 TDB 
+ X =-9.721397385944301E-01 Y =-2.685961575097874E-01 Z = 2.276040224638799E-04
+ VX= 4.280266333748455E-03 VY=-1.666679015941513E-02 VZ= 3.901186540353371E-07
+ LT= 5.824974936753662E-03 RG= 1.008563145760869E+00 RR= 3.129391453130557E-04
+2460421.500000000 = A.D. 2024-Apr-21 00:00:00.0000 TDB 
+ X =-8.682824256263340E-01 Y =-5.219390317380126E-01 Z = 2.369546468811215E-04
+ VX= 8.599722282126691E-03 VY=-1.480376486273071E-02 VZ= 1.305834791262184E-06
+ LT= 5.851072638721247E-03 RG= 1.013081822781689E+00 RR= 2.563221245088569E-04
+2460437.500000000 = A.D. 2024-May-07 00:00:00.0000 TDB 
+ X =-7.006396715670022E-01 Y =-7.368587588285842E-01 Z = 2.469743307269819E-04
+ VX= 1.222977026686284E-02 VY=-1.189895163696449E-02 VZ=-1.471464483395595E-07
+ LT= 5.872474904147482E-03 RG= 1.016787510167310E+00 RR= 1.958958711896104E-04
+2460453.500000000 = A.D. 2024-May-23 00:00:00.0000 TDB 
+ X =-4.820465655108871E-01 Y =-8.980115706650595E-01 Z = 2.561060599237558E-04
+ VX= 1.491506221462657E-02 VY=-8.136251462476787E-03 VZ= 7.505763658793241E-07
+ LT= 5.886479394492383E-03 RG= 1.019212312503869E+00 RR= 1.144939390922410E-04
+2460469.500000000 = A.D. 2024-Jun-08 00:00:00.0000 TDB 
+ X =-2.290271961412073E-01 Y =-9.943892785633840E-01 Z = 2.541784450698700E-04
+ VX= 1.652171470307649E-02 VY=-3.832086055123562E-03 VZ=-7.365575010917106E-08
+ LT= 5.893473042890882E-03 RG= 1.020423225186879E+00 RR= 2.612962394105486E-05
+2460485.500000000 = A.D. 2024-Jun-24 00:00:00.0000 TDB 
+ X = 3.999517735373102E-02 Y =-1.019314514006714E+00 Z = 2.579673056588740E-04
+ VX= 1.690599332417907E-02 VY= 7.215868786614892E-04 VZ=-4.198638113808447E-07
+ LT= 5.891599878264548E-03 RG= 1.020098896785714E+00 RR=-5.819620596896904E-05
+2460501.500000000 = A.D. 2024-Jul-10 00:00:00.0000 TDB 
+ X = 3.057151748635679E-01 Y =-9.715049580565444E-01 Z = 2.481968369364037E-04
+ VX= 1.610060273149446E-02 VY= 5.225625184295426E-03 VZ= 1.056372188827907E-08
+ LT= 5.882199448690672E-03 RG= 1.018471262860165E+00 RR=-1.517197382326291E-04
+2460517.500000000 = A.D. 2024-Jul-26 00:00:00.0000 TDB 
+ X = 5.489221691055706E-01 Y =-8.542958829247562E-01 Z = 2.406083135471080E-04
+ VX= 1.412726823810415E-02 VY= 9.336460635798322E-03 VZ=-1.357547916207662E-06
+ LT= 5.864745422119367E-03 RG= 1.015449191840790E+00 RR=-2.179621450988499E-04
+2460533.500000000 = A.D. 2024-Aug-11 00:00:00.0000 TDB 
+ X = 7.522801339651123E-01 Y =-6.759693143667932E-01 Z = 2.289760653265119E-04
+ VX= 1.112530888631307E-02 VY= 1.281897541487274E-02 VZ=-3.193888641600030E-07
+ LT= 5.841159390454790E-03 RG= 1.011365397051984E+00 RR=-2.925601732789486E-04
+2460549.500000000 = A.D. 2024-Aug-27 00:00:00.0000 TDB 
+ X = 9.006218591815790E-01 Y =-4.491315679605506E-01 Z = 2.101921627263323E-04
+ VX= 7.306330301107129E-03 VY= 1.537552400294204E-02 VZ=-1.312301149640673E-06
+ LT= 5.812475860482895E-03 RG= 1.006398997791200E+00 RR=-3.233237519395454E-04
+2460565.500000000 = A.D. 2024-Sep-12 00:00:00.0000 TDB 
+ X = 9.827616485317996E-01 Y =-1.897458759540281E-01 Z = 1.989934327067634E-04
+ VX= 2.887710593033663E-03 VY= 1.684023662921389E-02 VZ=-1.012423498174003E-06
+ LT= 5.780783189651462E-03 RG= 1.000911581941626E+00 RR=-3.571088950365143E-04
+2460581.500000000 = A.D. 2024-Sep-28 00:00:00.0000 TDB 
+ X = 9.918447003867370E-01 Y = 8.317415050093777E-02 Z = 1.767349336787159E-04
+ VX=-1.774004147841262E-03 VY= 1.707333600433428E-02 VZ=-6.954371198742184E-07
+ LT= 5.748523657273208E-03 RG= 9.953260170577505E-01 RR=-3.410706755505240E-04
+2460597.500000000 = A.D. 2024-Oct-14 00:00:00.0000 TDB 
+ X = 9.261764693347839E-01 Y = 3.495812319689093E-01 Z = 1.644324380754500E-04
+ VX=-6.385007545461731E-03 VY= 1.600740084602367E-02 VZ=-1.561821601299228E-06
+ LT= 5.717500376805074E-03 RG= 9.899545025567452E-01 RR=-3.209815125362326E-04
+2460613.500000000 = A.D. 2024-Oct-30 00:00:00.0000 TDB 
+ X = 7.899089500216478E-01 Y = 5.890406412743413E-01 Z = 1.486668119849332E-04
+ VX=-1.055996728298554E-02 VY= 1.372891352662165E-02 VZ=-2.006682299189137E-07
+ LT= 5.690937543210388E-03 RG= 9.853552904912066E-01 RR=-2.583075093154343E-04
+2460629.500000000 = A.D. 2024-Nov-15 00:00:00.0000 TDB 
+ X = 5.923814993913682E-01 Y = 7.828287055227544E-01 Z = 1.354740370273681E-04
+ VX=-1.396662853067396E-02 VY= 1.033442274401374E-02 VZ=-1.179596187237920E-06
+ LT= 5.669831497767041E-03 RG= 9.817008920057125E-01 RR=-1.869100178278205E-04
+2460645.500000000 = A.D. 2024-Dec-01 00:00:00.0000 TDB 
+ X = 3.484468051017625E-01 Y = 9.154380965143283E-01 Z = 1.315950771755310E-04
+ VX=-1.633463953914192E-02 VY= 6.117080154268599E-03 VZ=-9.510514508964408E-08
+ LT= 5.657184628846744E-03 RG= 9.795111545320281E-01 RR=-9.386800685593531E-05
+2460661.500000000 = A.D. 2024-Dec-17 00:00:00.0000 TDB 
+ X = 7.669233764844656E-02 Y = 9.757287494236401E-01 Z = 1.227875089925604E-04
+ VX=-1.740977209048712E-02 VY= 1.376083747204111E-03 VZ= 2.398494420762680E-08
+ LT= 5.652719996935641E-03 RG= 9.787381274797547E-01 RR= 7.651032436898047E-06
+2460677.500000000 = A.D. 2025-Jan-02 00:00:00.0000 TDB 
+ X =-2.015818244680382E-01 Y = 9.587243173961434E-01 Z = 1.281687860354115E-04
+ VX=-1.713843980041818E-02 VY=-3.499053829991571E-03 VZ=-2.245145786915394E-07
+ LT= 5.658203019512601E-03 RG= 9.796874834097870E-01 RR= 1.022468304775175E-04
+2460693.500000000 = A.D. 2025-Jan-18 00:00:00.0000 TDB 
+ X =-4.642807544006800E-01 Y = 8.653942739173111E-01 Z = 1.301581936745068E-04
+ VX=-1.549099276101290E-02 VY=-8.082421280621624E-03 VZ= 1.012694060899385E-06
+ LT= 5.671970345720947E-03 RG= 9.820712220490375E-01 RR= 2.012978664206568E-04
+2460709.500000000 = A.D. 2025-Feb-03 00:00:00.0000 TDB 
+ X =-6.908643551146814E-01 Y = 7.033399681139877E-01 Z = 1.385285347539445E-04
+ VX=-1.263578798768223E-02 VY=-1.203751059611516E-02 VZ=-2.464164731750532E-08
+ LT= 5.694030439688784E-03 RG= 9.858908089158580E-01 RR= 2.669192113762602E-04
+2460725.500000000 = A.D. 2025-Feb-19 00:00:00.0000 TDB 
+ X =-8.635023869972372E-01 Y = 4.856404465983621E-01 Z = 1.526238947255430E-04
+ VX=-8.817188291195334E-03 VY=-1.499753010463897E-02 VZ= 1.213823809694103E-06
+ LT= 5.721795951785604E-03 RG= 9.906982583088740E-01 RR= 3.333569032252824E-04
+2460741.500000000 = A.D. 2025-Mar-07 00:00:00.0000 TDB 
+ X =-9.693966711362468E-01 Y = 2.296109037013067E-01 Z = 1.608998338337617E-04
+ VX=-4.335596280924896E-03 VY=-1.678471307565356E-02 VZ= 7.482511688019995E-07
+ LT= 5.753677626963169E-03 RG= 9.962183992465328E-01 RR= 3.502842199147793E-04
+2460757.500000000 = A.D. 2025-Mar-23 00:00:00.0000 TDB 
+ X =-1.001010526680049E+00 Y =-4.442684374636893E-02 Z = 1.805499702815143E-04
+ VX= 3.992007783350158E-04 VY=-1.725945362511140E-02 VZ= 7.117124859358181E-07
+ LT= 5.787045884310006E-03 RG= 1.001995933907830E+00 RR= 3.664475913050453E-04
+2460773.500000000 = A.D. 2025-Apr-08 00:00:00.0000 TDB 
+ X =-9.568721258704267E-01 Y =-3.156338113019356E-01 Z = 1.896797166324396E-04
+ VX= 5.066453801789935E-03 VY=-1.641820219480316E-02 VZ= 1.327524468554549E-06
+ LT= 5.819329856354960E-03 RG= 1.007585730388819E+00 RR= 3.316755639284307E-04
+$$EOE
+*******************************************************************************
+Coordinate system description:
+
+  Ecliptic and Mean Equinox of Reference Epoch
+
+    Reference epoch: J2000.0
+    XY-plane: plane of the Earth's orbit at the reference epoch
+              Note: obliquity of 84381.448 arcseconds wrt ICRF equator (IAU76)
+    X-axis  : out along ascending node of instantaneous plane of the Earth's
+              orbit and the Earth's mean equator at the reference epoch
+    Z-axis  : perpendicular to the xy-plane in the directional (+ or -) sense
+              of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (au)                               
+      Y      Y-component of position vector (au)                               
+      Z      Z-component of position vector (au)                               
+      VX     X-component of velocity vector (au/day)                           
+      VY     Y-component of velocity vector (au/day)                           
+      VZ     Z-component of velocity vector (au/day)                           
+      LT     One-way down-leg Newtonian light-time (day)                       
+      RG     Range; distance from coordinate center (au)                       
+      RR     Range-rate; radial velocity wrt coord. center (au/day)            
+
+Geometric states/elements have no aberrations applied.
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information: http://ssd.jpl.nasa.gov/
+     Connect    : telnet://ssd.jpl.nasa.gov:6775  (via browser)
+                  http://ssd.jpl.nasa.gov/?horizons
+                  telnet ssd.jpl.nasa.gov 6775    (via command-line)
+     Author     : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
+</pre>
+</td></tr>
+</table>
+
+<!-- END OF PAGE CONTENT -->
+    </td>
+    </tr>
+
+<!-- SSD standard page footer -->
+    <tr><td align="center"><img src="images/blank.gif" height="10" alt=""></td></tr>
+
+    <tr><td>
+      <!-- Sample SSD standard bottom navigation bar -->
+<table border="0" cellspacing="0" cellpadding="0" width="730" bgcolor="#666666">
+  <tr align="center">
+    <td><a href="/?about" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','images/nav/about_on.gif',1)"><img name="about" border="0" alt="ABOUT SSD" src="images/nav/about_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" alt=""></td>
+    <td><a href="/?credits" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('credits','','images/nav/credits_on.gif',1)"><img name="credits" border="0" alt="CREDITS/AWARDS" src="images/nav/credits_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" alt=""></td>
+    <td><a href="http://www.jpl.nasa.gov/copyrights.cfm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('copyright','','images/nav/copyright_on.gif',1)"><img name="copyright" border="0" alt="PRIVACY/COPYRIGHT" src="images/nav/copyright_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" alt=""></td>
+    <td><a href="/?glossary" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('glossary','','images/nav/glossary_on.gif',1)"><img name="glossary" border="0" alt="GLOSSARY" src="images/nav/glossary_off.gif"></a></td>
+    <td width="1" bgcolor="#CCCCCC"><img src="images/blank.gif" width="1" alt=""></td>
+    <td><a href="/?links" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('links','','images/nav/links_on.gif',1)"><img name="links" border="0" alt="LINKS" src="images/nav/links_off.gif"></a></td>
+  </tr>
+</table>
+
+      <?php include "include/ssd_bottom_nav_bar.html" ?>
+<!--
+      <table border="0" cellpadding="0" cellspacing="0" width="730">
+        <tr>
+          <td align="center" width="100%" bgcolor="#666666">
+            <div class="navtext">SSD STANDARD NAVIGATION FOOTER</div>
+          </td>
+        </tr>
+      </table>
+-->
+    </td></tr>
+
+
+<!-- START OF JPL REQUIRED FOOTER -->
+
+    <!-- JPL standard page footer -->
+    <tr><td><img src="images/blank.gif" height="2" alt=""></td></tr>
+    <tr>
+      <td align="left" width="100%" bgcolor="#FFFFFF">
+        <!-- JPL Required Standard Footer -->
+
+<table border="0" cellpadding="5" cellspacing="0" bgcolor="#CCCCCC" width="730">
+  <tr>
+    <!-- FirstGov Link -->
+    <td align="left" width="100%"><a target="_blank" href="http://www.firstgov.gov/"><img src="portal_images/footer_image1.gif" alt="FirstGov" border="0" width="136" height="39"></a></td>
+
+    <!-- Current Date/Time stamp -->
+    <td align="right" nowrap>
+      <font class="date_time">
+        <?php echo " ", gmdate('Y-M-d H:i'), " UT&nbsp;"; ?>
+        
+        2019-Feb-08 01:12 UT
+        <br>(server date/time)&nbsp;&nbsp;
+      </font>
+    </td>
+
+    <!-- NASA Link -->
+    <td width="61"><a target="_blank" href="https://www.nasa.gov/"><img src="portal_images/footer_image2.gif" alt="NASA Home Page" border="0" width="61" height="40"></a></td>
+
+    <!-- Site Manager and Webmaster -->
+    <td align="right">
+      <table border="0" cellpadding="0" cellspacing="0" class="author">
+        <tr>
+          <td align="right" nowrap>Site Manager:&nbsp;</td>
+          <td align="left" nowrap>&nbsp;Ryan S. Park</td>
+        </tr>
+        <tr>
+          <td align="right" nowrap><a href="mailto:webmaster@ssd.jpl.nasa.gov">Webmaster</a>:&nbsp;</td>
+          <td align="left" nowrap>&nbsp;Alan B. Chamberlin</td>
+        </tr>
+        <?php include "include/last_modified.inc" ?>
+        <!--
+        <tr>
+          <td align="right" nowrap><font size="-2">&nbsp;</font></td>
+          <td align="left" nowrap><font size="-2">&nbsp;CL 97-0935</font></td>
+        </tr>
+        -->
+      </table>
+    </td>
+
+  </tr>
+
+</table>
+
+        <?php include "include/jpl_std_foot.html" ?>
+      </td>
+    </tr>
+
+  </table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
