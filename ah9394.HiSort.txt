@@ -1,0 +1,1000 @@
+ 1991  #Jct5sZ_Q3MU&sa=U&ved=2ahUKEwi3vLTIrazrAhWJwVkKHbUSBuMQtwIwAH
+ 1778  #Q997540#
+ 1900  #SdAx 81fc000
+ 1888  #at5f3e65cf.TsRss.txt
+ 1820  #at936e49d 8571ce82b81ebff09f6b1bf4a5f067de23732160fbf6b33ade0132a6486a04d0 846125001 387a 0 RecentDeaths
+ 2192  #b3897
+ 2486  #between-lc-collate-c-and-lc-coll
+ 1850  #com/plomlompom
+ 2339  #curl $dev/rh/CoTube|cut -d' ' -f2-|sort -n|more
+ 2337  #curl $dev/rh/CoTube|cutsort -k2|more
+ 2758  #https://www.wikidata.org/wiki/Special:EntityPage/Q1927710
+ 2133  #ll *aa5*
+ 1847  #lynx --dump|
+ 2500  #lynx -dump $a|more
+ 1894  #mv at5f3e65cf.TsRss.txt at935bba4.TsRss.txt
+ 1881  #mv at9364702.c780f8.ShotPy.png at9364702.c780f8.ShotNullPy.png
+ 2002  #mv ~/.local/share/recently-used.xbel.DYIKP0 
+ 2638  #qx4ef71c
+ 1893  #sm at5f3e65cf.TsRss.txt
+ 2057  #wiki/Deaths_in_2020
+ 2321  0000bfefd5606242b5c0004d0719fb30dc0229b92b433753ad34c4e1e533b0cc  WoCh936.bin
+ 2171  CB raw/844465003
+ 2489  LC_COLLATE=C
+ 1950  RaMorMa
+ 2619  RaMorMa
+ 2188  `printf %x 735383`|cat
+ 2724  a=$dev
+ 2103  a=/inland/golden-spy-warnung-101.html
+ 2289  a=/inland/rki-corona-zahlen-105.html
+ 2383  a=/inland/rki-corona-zahlen-107.html
+ 2250  a=10a37da
+ 2752  a=190a7e
+ 2759  a=1927710
+ 2741  a=1aa11e
+ 2756  a=1d0691
+ 2763  a=1d6a1e
+ 1787  a=2551
+ 1799  a=26221
+ 1785  a=2f10a
+ 2444  a=3900ca9
+ 2531  a=44bc
+ 2511  a=48ac70
+ 2748  a=4a1929a
+ 2634  a=5175068
+ 2515  a=8e71d
+ 2268  a=Aba
+ 2249  a=AdrianoAbbado.
+ 1838  a=BWV
+ 1843  a=BWV
+ 1841  a=BWV_\(disambiguation\)
+ 2627  a=BitPort?
+ 1793  a=Borys_Paton
+ 1772  a=Bubi+Scholz
+ 1791  a=Deaths_in_2020
+ 2578  a=DerBallDerGesellschaft
+ 2185  a=Diva_(1981_film)
+ 2186  a=Diva_\(1981_film\)
+ 2205  a=Diva_\(1981_film\)
+ 2426  a=EvTaTo
+ 2034  a=Harry_Jeske
+ 2722  a=Hartmann
+ 2728  a=Hartmann
+ 2177  a=Jean-Jacques_Beineix
+ 2183  a=Jean-Jacques_Beineix
+ 2441  a=Jens+Wernicke
+ 2446  a=Jens+Wernicke
+ 2436  a=Jens_Wernicke
+ 2738  a=Klaus+Hartmann
+ 2734  a=KlausHartmann
+ 2733  a=KlausHartmann?
+ 2482  a=LC_COLLATE
+ 2506  a=LFK
+ 2513  a=LFK
+ 2517  a=LFK
+ 2056  a=Metafont
+ 2745  a=Michael+Hartmann
+ 2750  a=Michael+Hartmann
+ 2754  a=Michael+Hartmann
+ 2235  a=NieDerStand
+ 2428  a=PraterBrater
+ 2620  a=RaMorMa
+ 1783  a=Rafic+Hariri
+ 2432  a=Rubicon
+ 2430  a=Rubikon
+ 2434  a=Rubikon_\(Website\)
+ 2438  a=Rubikon_\(Website\)
+ 2549  a=SchulHof
+ 2413  a=SeeEd
+ 2568  a=TdHg
+ 2246  a=TexteZurKunst
+ 2390  a=TexteZurKunst
+ 2417  a=TexteZurKunst
+ 2570  a=TheorieDerHerrschendenGesellschaft
+ 2303  a=Uwe_Fenner
+ 2207  a=Wilhelmenia+Wiggins+Fernandez
+ 2113  a=`curl -s $dev/atime`;echo $a;history>$a.MinTyHist.txt;more $a.MinTyHist.txt
+ 2398  a=`curl -s $dev/atime`;echo $a;history>$a.MinTyHist.txt;more $a.MinTyHist.txt
+ 2768  a=`curl -s $dev/atime`;echo $a;history>$a.MinTyHist.txt;more $a.MinTyHist.txt
+ 1827  a=`curl -s $dev/rh//TapJs|grep WoCh`;echo $a;b=`sm WoCh$ay$w.txt`;echo ${b:0:64}${a:75:4}|xxd -p -r>WoCh$ay$w.bin;sm W*;a=`echo|cat ~/aw$aw/WoCh$ay$w.txt -|tac|while read a;do printf "%s_" ${a:73:9};done`;echo ${a:0:-2};wget --post-data l=${a:0:-2} -O WoCh$ay$w.zip https://floatingboat2013.appspot.com/eval/772475001;unzip -l WoCh$ay$w.zip #!6262
+ 2282  a=`curl -s $dev/rh//TapJs|grep WoCh`;echo $a;b=`sm WoCh$ay$w.txt`;echo ${b:0:64}${a:75:4}|xxd -p -r>WoCh$ay$w.bin;sm W*;a=`echo|cat ~/aw$aw/WoCh$ay$w.txt -|tac|while read a;do printf "%s_" ${a:73:9};done`;echo ${a:0:-2};wget --post-data l=${a:0:-2} -O WoCh$ay$w.zip https://floatingboat2013.appspot.com/eval/772475001;unzip -l WoCh$ay$w.zip #!6262
+ 1978  a=`more +34 at9371788.TsRss.txt|tac|tail -1`;echo $a
+ 1977  a=`more +34 at9371788.TsRss.txt|tail -1`;echo $a
+ 1976  a=`more +35 at9371788.TsRss.txt|tail -1`;echo $a
+ 1979  a=`more +36 at9371788.TsRss.txt|tac|tail -1`;echo $a
+ 1971  a=`more +36 at9371788.TsRss.txt|tail -1`
+ 1974  a=`more +36 at9371788.TsRss.txt|tail -1`
+ 2175  a=beineix
+ 1797  a=boulez
+ 1958  a=dcf
+ 2179  a=diva
+ 2181  a=diva+film
+ 1775  a=f38a4
+ 2300  a=fenner
+ 1852  a=https://dump.plomlompom.com/blog
+ 1854  a=https://dump.plomlompom.com/blog/
+ 1848  a=https://dump.plomlompom.com/blog/2017-07-06_ZwischenBericht.html
+ 1856  a=https://plomlompom.com/
+ 2485  a=https://stackoverflow.com/questions/23660247/treatment-of-spaces-in-sort-command-difference-
+ 1956  a=https://www.manualslib.de/manual/362709/Sempre-92675.html
+ 2561  a=https://www.mdr.de/sachsen/leipzig/leipzig-leipzig-land/corona-studie-restart-konzert-tim-bendzko-100.html
+ 2673  a=https://www.rubikon.news/
+ 2675  a=https://www.rubikon.news/artikel.atom
+ 2504  a=https://www.rubikon.news/artikel/eine-zensur-findet-statt
+ 2668  a=https://www.rubikon.news/artikel/eine-zensur-findet-statt
+ 2610  a=precht+herbert
+ 2615  a=precht+herfried
+ 2608  a=precht+heribert
+ 2612  a=precht+muenkler
+ 1988  a=registerarie
+ 2293  a=rki
+ 2501  a=rubikon.news
+ 1953  a=sempre+92675
+ 2536  a=smartbook+n13
+ 1804  ab
+ 1809  ab
+ 1810  ab
+ 1811  ab
+ 1812  ab
+ 1813  ab
+ 1814  ab
+ 1816  ab
+ 1817  ab
+ 1818  ab
+ 1819  ab
+ 1832  ab
+ 1834  ab
+ 1865  ab
+ 1866  ab
+ 1867  ab
+ 1868  ab
+ 1869  ab
+ 1873  ab
+ 1876  ab
+ 1901  ab
+ 1902  ab
+ 1904  ab
+ 1907  ab
+ 1908  ab
+ 1909  ab
+ 1910  ab
+ 1912  ab
+ 1913  ab
+ 1914  ab
+ 1915  ab
+ 1916  ab
+ 1917  ab
+ 1945  ab
+ 1946  ab
+ 1947  ab
+ 1948  ab
+ 1949  ab
+ 1951  ab
+ 1982  ab
+ 1985  ab
+ 2014  ab
+ 2027  ab
+ 2047  ab
+ 2063  ab
+ 2066  ab
+ 2074  ab
+ 2114  ab
+ 2115  ab
+ 2116  ab
+ 2117  ab
+ 2118  ab
+ 2149  ab
+ 2193  ab
+ 2194  ab
+ 2201  ab
+ 2261  ab
+ 2262  ab
+ 2284  ab
+ 2292  ab
+ 2309  ab
+ 2311  ab
+ 2312  ab
+ 2313  ab
+ 2314  ab
+ 2322  ab
+ 2323  ab
+ 2331  ab
+ 2335  ab
+ 2357  ab
+ 2468  ab
+ 2524  ab
+ 2525  ab
+ 2526  ab
+ 2527  ab
+ 2528  ab
+ 2529  ab
+ 2530  ab
+ 2533  ab
+ 2534  ab
+ 2556  ab
+ 2564  ab
+ 2565  ab
+ 2566  ab
+ 2593  ab
+ 2595  ab
+ 2596  ab
+ 2600  ab
+ 2617  ab
+ 2624  ab
+ 2625  ab
+ 2631  ab
+ 2633  ab
+ 2649  ab
+ 2650  ab
+ 2693  ab
+ 2694  ab
+ 2696  ab
+ 2697  ab
+ 2706  ab
+ 2707  ab
+ 2708  ab
+ 2709  ab
+ 2710  ab
+ 2711  ab
+ 2712  ab
+ 2713  ab
+ 2714  ab
+ 2715  ab
+ 2716  ab
+ 2717  ab
+ 2718  ab
+ 2721  ab
+ 2732  ab
+ 2744  ab
+ 2765  ab
+ 1922  ad=$aw$h;curl $dev/log?s=$ad$n>ad$ad.RqLog.AeFb.txt
+ 2164  ad=$aw$h;curl $dev/log?s=$ad$n>ad$ad.RqLog.AeFb.txt
+ 2167  ad=$aw$h;n=0000;curl $dev/log?s=$ad$n>ad$ad.RqLog.AeFb.txt
+ 2585  ad=$aw$h;n=0000;curl $dev/log?s=$ad$n>ad$ad.RqLog.AeFb.txt
+ 1918  ah
+ 2051  ah
+ 2053  ah
+ 2059  ah
+ 2068  ah
+ 2086  ah
+ 2089  ah
+ 2108  ah
+ 2130  ah
+ 2131  ah
+ 2136  ah
+ 2142  ah
+ 2148  ah
+ 2152  ah
+ 2155  ah
+ 2218  ah
+ 2221  ah
+ 2226  ah
+ 2240  ah
+ 2257  ah
+ 2324  ah
+ 2327  ah
+ 2328  ah
+ 2419  ah
+ 2423  ah
+ 2450  ah
+ 2467  ah
+ 2473  ah
+ 2474  ah
+ 2475  ah
+ 2521  ah
+ 2545  ah
+ 2547  ah
+ 2580  ah
+ 2640  ah
+ 2644  ah
+ 2719  ah
+ 2720  ah
+ 2664  alias
+ 2666  alias
+ 2005  alias cw="cd ~/aw93"
+ 2010  alias sm=sha256sum
+ 1826  c=$ay$w;b=WoCh$c;curl $dev/rh/$b>$b.txt;sm WoCh???.txt;ll W*;a=`sm WoCh$c.txt|cut -c1-65`;echo "w=$c;wch=$a"|xclip -sel clip;ssh rawa@sl4.eu;cb ef//TapJs
+ 2277  c=$ay$w;b=WoCh$c;curl $dev/rh/$b>$b.txt;sm WoCh???.txt;ll W*;a=`sm WoCh$c.txt|cut -c1-65`;echo "w=$c;wch=$a"|xclip -sel clip;ssh rawa@sl4.eu;cb ef//TapJs
+ 2281  c=$ay$w;b=WoCh$c;curl $dev/rh/$b>$b.txt;sm WoCh???.txt;ll W*;a=`sm WoCh$c.txt|cut -c1-65`;echo "w=$c;wch=$a"|xclip -sel clip;ssh rawa@sl4.eu;cb ef//TapJs
+ 2688  cat --h
+ 2687  cat -?
+ 2288  cat -n *TsRss*
+ 1969  cat -n at9371788.TsRss.txt
+ 1870  cat M*
+ 1905  cat M*
+ 2087  cat M*
+ 2091  cat M*
+ 2144  cat M*
+ 2626  cat M*
+ 2632  cat M*
+ 2698  cat M*
+ 2766  cat M*
+ 2317  cat M*|tail -19
+ 1875  cat ~/bin/rs
+ 2260  cb /tub/f0IcKQyqxY4
+ 2225  cb AWAR
+ 2224  cb AWAR*
+ 2265  cb DivaWave
+ 2326  cb DivaWave
+ 2386  cb DivaWave
+ 2393  cb DivaWave
+ 2453  cb DivaWave
+ 2539  cb DivaWave
+ 2553  cb DivaWave
+ 2606  cb DivaWave
+ 2705  cb DivaWave
+ 2217  cb MetaCos
+ 2395  cb MetaCos
+ 2129  cb MetaSin
+ 2088  cb MetaWave
+ 2106  cb MetaWave
+ 2120  cb MetaWave
+ 2394  cb MetaWave
+ 2245  cb OM
+ 2195  cb edit
+ 2295  cb edit
+ 2443  cb edit
+ 2519  cb edit
+ 2391  cb ef/$a
+ 2044  cb ef//Dante
+ 2375  cb ef/CoTube
+ 1960  cb ef/DCF
+ 2334  cb ef/MinLw49
+ 2648  cb ef/MinLw49
+ 2038  cb ef/QxAward
+ 2623  cb ef/RaMorMa
+ 1780  cb ef/RecentDeaths
+ 2122  cb ef/ld$ld
+ 2128  cb ef/ld$ld
+ 2558  cb ef/ld$ld
+ 2102  cb follow
+ 2050  cb hoo
+ 2498  cb hoo
+ 2308  cb hoo;cb vign
+ 1987  cb om8
+ 2472  cb om8
+ 1926  cb raw/823295001
+ 1927  cb raw/826955001
+ 2170  cb raw/826985001
+ 1928  cb raw/830935001
+ 1929  cb raw/830945002
+ 1930  cb raw/834645002
+ 1931  cb raw/834655002
+ 1932  cb raw/840495001
+ 1933  cb raw/840495001
+ 1934  cb raw/840505001
+ 1935  cb raw/840505001
+ 2172  cb raw/844465003
+ 1936  cb raw/853895001
+ 2169  cb raw/94aaafcb9d43264746d30db7b307d528b057c123188485b4181fe3b3c151ef3a  ShotAd937.txt
+ 1963  cb rgb
+ 1860  cb tap
+ 2544  cb tub/B1bu7mf4W8A
+ 2591  cb tub/B1bu7mf4W8A
+ 1998  cb tub/Jct5sZ_Q3MU
+ 2026  cb tub/Jct5sZ_Q3MU
+ 2614  cb tub/ezSbtWmgCIg
+ 2271  cb tub/vsMydMDi3rI
+ 2499  cb vign
+ 1808  cb vign;cb wurf;cb hoo;rs
+ 1822  cb vign;cb wurf;cb hoo;rs
+ 1874  cb vign;cb wurf;cb hoo;rs
+ 1967  cb vign;cb wurf;cb hoo;rs
+ 2033  cb vign;cb wurf;cb hoo;rs
+ 2078  cb vign;cb wurf;cb hoo;rs
+ 2101  cb vign;cb wurf;cb hoo;rs
+ 2273  cb vign;cb wurf;cb hoo;rs
+ 2382  cb vign;cb wurf;cb hoo;rs
+ 2462  cb vign;cb wurf;cb hoo;rs
+ 2560  cb vign;cb wurf;cb hoo;rs
+ 2599  cb vign;cb wurf;cb hoo;rs
+ 2653  cb vign;cb wurf;cb hoo;rs
+ 2174  cb vign;cb wurf;cb hoo;rs#cb vign;cb wurf;cb hoo;rs
+ 2355  cd /media/xyz/ZincHd/rq/rq$r;sm *|sm;cd /media/xyz/IcyBox1/rq/rq$r;sm *|sm;cd ~/rq$r
+ 2405  cd /media/xyz/ZincHd/rq/rq$r;sm *|sm;cd /media/xyz/IcyBox1/rq/rq$r;sm *|sm;cd ~/rq$r
+ 2353  cd ~/rq$r
+ 2358  cd ~/rq$r
+ 2403  cd ~/rq$r
+ 2354  cd ~/rq$r;sm *>~/aw$aw/DhRq$r.txt;sm ~/aw$aw/DhRq$r.txt
+ 2404  cd ~/rq$r;sm *>~/aw$aw/DhRq$r.txt;sm ~/aw$aw/DhRq$r.txt
+ 2154  chromium-browser  at9379e0e.db950c.ShotPy.png
+ 2239  chromium-browser  https://twitter.com/HeikoSchrang/status/1290317891007590400
+ 2643  chromium-browser *19a1*
+ 2135  chromium-browser *aa5*
+ 1944  chromium-browser ShotBarAw$aw.html
+ 2229  chromium-browser ShotBarAw$aw.html
+ 2151  chromium-browser at9379d65.fdc49c.ShotPy.png
+ 2043  chromium-browser http://bethanien.de/
+ 2449  chromium-browser https://www.google.com/search?q=$a
+ 2256  chromium-browser noisegrains.com
+ 2548  chromium-browser twitter.com/_donalphonso
+ 2319  cl
+ 2145  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a
+ 1805  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 1836  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 1899  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 1984  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2049  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2065  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2093  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2138  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2147  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2199  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2286  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2316  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2330  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2362  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2364  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2411  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2470  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2700  clear;a=`df -B1|grep /dev/sda1|tr -s ' '|cut -d' ' -f4`;printf 'SdAx %x' $a|xclip -sel clip;ab;grep Sd M*|tail -6|cut -c20-23,30-33
+ 2318  clear;cat M*|tail -19
+ 2055  cr
+ 2060  cr
+ 2325  cr
+ 2420  cr
+ 2424  cr
+ 2645  cr
+ 2677  curl $a|grep \<link
+ 2680  curl $a|grep \<link|cut -c69-
+ 2681  curl $a|grep \<link|cut -c79-
+ 2682  curl $a|grep \<link|cut -c79-|rev|cut -c3-|rev
+ 2683  curl $a|grep \<link|cut -c79-|rev|cut -c4-|rev
+ 2685  curl $a|grep \<link|cut -c82-|rev|cut -c4-|rev
+ 2684  curl $a|grep \<link|cut -c83-|rev|cut -c4-|rev
+ 2679  curl $a|grep \<link|cut -c99-
+ 2678  curl $a|grep \<link|more +2
+ 1849  curl $a|more
+ 1851  curl $a|more
+ 1853  curl $a|more
+ 1855  curl $a|more
+ 1857  curl $a|more
+ 2672  curl $a|more
+ 2674  curl $a|more
+ 2676  curl $a|more
+ 1986  curl $dev/HpdRss
+ 2030  curl $dev/HpdRss
+ 2031  curl $dev/HpdRss|tac
+ 2080  curl $dev/HpdRss|tac
+ 2587  curl $dev/raw/844465003;curl $dev/raw/846175001
+ 2238  curl $dev/rh/$a
+ 2248  curl $dev/rh/$a
+ 2415  curl $dev/rh/$a
+ 2418  curl $dev/rh/$a
+ 2425  curl $dev/rh/$a|more
+ 2427  curl $dev/rh/$a|more
+ 2551  curl $dev/rh/$a|more
+ 2569  curl $dev/rh/$a|more
+ 2571  curl $dev/rh/$a|more
+ 2255  curl $dev/rh/AdrianoAbbado
+ 2340  curl $dev/rh/CoTube|cut -d' ' -f2-|sort -n|more
+ 2344  curl $dev/rh/CoTube|cut -d' ' -f2-|sort -n|more
+ 2374  curl $dev/rh/CoTube|cut -d' ' -f2-|sort -n|more
+ 2343  curl $dev/rh/CoTube|cut -d' ' -f2|sort -c
+ 2345  curl $dev/rh/CoTube|cut -d' ' -f2|sort -c
+ 2477  curl $dev/rh/CoTube|cut -d' ' -f2|sort -c
+ 2341  curl $dev/rh/CoTube|cut -d' ' -f2|sort -n|sort -c
+ 2342  curl $dev/rh/CoTube|cut -d' ' -f2|sort -n|sort -u
+ 2479  curl $dev/rh/CoTube|cut -d' ' -f2|sort|more
+ 2490  curl $dev/rh/CoTube|cut -d' ' -f2|sort|more
+ 2492  curl $dev/rh/CoTube|cut -d' ' -f2|sort|more
+ 2493  curl $dev/rh/CoTube|cut -d' ' -f2|sort|more
+ 2542  curl $dev/rh/CoTube|cut -d' ' -f2|sort|more
+ 2478  curl $dev/rh/CoTube|cut -d' ' -f2|sort|sort -c
+ 2270  curl $dev/rh/CoTube|grep $a
+ 2259  curl $dev/rh/CoTube|grep Ch
+ 2269  curl $dev/rh/CoTube|grep Ch
+ 2543  curl $dev/rh/CoTube|grep Fm
+ 2346  curl $dev/rh/CoTube|grep JGw
+ 2336  curl $dev/rh/CoTube|sort -k2|more
+ 2097  curl $dev/rh/NwSh>~/bin/nw
+ 2258  curl $dev/rh/SlashGoethe
+ 2237  curl $dev/rh/UmLaut
+ 2421  curl $dev/rh/aw93|more
+ 2656  curl -V
+ 2655  curl -h
+ 2686  curl -s $a|grep \<link|cut -c82-|rev|cut -c4-|rev
+ 2691  curl -s $a|grep \<link|cut -c82-|rev|cut -c4-|rev|more +2
+ 2692  curl -s $a|grep \<link|cut -c82-|rev|cut -c4-|rev|more +3
+ 2654  curl -v
+ 2657  curl https://curl.haxx.se/|more
+ 2658  curl https://www.fastly-insights.com|more
+ 2607  curl precht.de|more
+ 2006  cw
+ 2356  cw
+ 2363  cw
+ 2409  cw
+ 2406  cw;ab;cd ~/rq$r
+ 2061  dat
+ 1806  date
+ 2062  date
+ 2070  date
+ 2071  date
+ 2134  date
+ 2422  date
+ 2601  date
+ 1802  df
+ 1821  df
+ 1861  df
+ 1897  df
+ 1937  df
+ 1961  df
+ 1964  df
+ 1999  df
+ 2016  df
+ 2039  df
+ 2045  df
+ 2046  df
+ 2076  df
+ 2090  df
+ 2105  df
+ 2110  df
+ 2143  df
+ 2146  df
+ 2156  df
+ 2160  df
+ 2210  df
+ 2233  df
+ 2241  df
+ 2263  df
+ 2296  df
+ 2305  df
+ 2306  df
+ 2310  df
+ 2347  df
+ 2372  df
+ 2385  df
+ 2387  df
+ 2412  df
+ 2455  df
+ 2466  df
+ 2520  df
+ 2546  df
+ 2597  df
+ 2602  df
+ 2639  df
+ 2703  df
+ 1796  echo $((0x294586))
+ 2523  echo $((26*26*26))
+ 2522  echo $((26*26+26))
+ 2488  echo $LANG
+ 1968  echo $a
+ 1975  echo $a
+ 2197  echo $a
+ 2725  echo $a
+ 2214  echo $a|xclip -sel clip
+ 2630  echo $a|xclip -sel clip
+ 1863  echo $h
+ 2019  echo $h
+ 2376  echo $h
+ 2124  echo $ld
+ 1920  echo $n
+ 2165  echo $n
+ 2189  echo `printf %x 735383`|cat
+ 2191  echo `printf %x 735383`|xclip -sel clip
+ 2213  echo `printf %x 735383`|xclip -sel clip
+ 2636  echo `printf %x 735383`|xclip -sel clip
+ 2637  echo `printf qx%x $a`|xclip -sel clip
+ 2761  echo `printf qx%x $a`|xclip -sel clip
+ 1994  export
+ 2021  export
+ 2023  export
+ 2278  export
+ 2480  export
+ 2663  export
+ 2491  export LC_COLLATE=C
+ 2013  export at0=0x5608aa2b
+ 2003  export aw=93
+ 2279  export ay=9
+ 1997  export dev=https://floatingboat2013.appspot.com
+ 2052  export e=5
+ 2022  export h
+ 2126  export l=a
+ 1770  export ld=$ll$l
+ 2123  export ld=$ll$l
+ 2127  export ld=$ll$l
+ 1771  export ld=$ll$l;cb ef/ld$ld
+ 2369  export ld=$ll$l;cb ef/ld$ld
+ 2125  export ll=491
+ 1921  export n=0000
+ 2166  export n=0000
+ 2726  export prod=https://dresdenlabs.appspot.com
+ 2351  export r=489b
+ 2481  export|grep COLL
+ 1864  ff
+ 1878  ff
+ 1886  ff
+ 2020  ff
+ 2024  ff
+ 2028  ff
+ 2069  ff
+ 2072  ff
+ 2073  ff
+ 2107  ff
+ 2157  ff
+ 2159  ff
+ 2220  ff
+ 2230  ff
+ 2379  ff
+ 2451  ff
+ 2554  ff
+ 2582  ff
+ 2604  ff
+ 2350  grep -v / ~/aw93/DuAd931.txt|grep rq|sort -n
+ 2400  grep -v / ~/aw93/DuAd931.txt|grep rq|sort -n
+ 1924  grep 10.15 ad93$h*AeFb*|grep Macin|sed 's/resource=/$/g'|cut -d'$' -f2|grep -v applebot|cut -c1-120
+ 1923  grep 10.15 ad93$h*AeFb*|grep Macin|sed 's/resource=/$/g'|cut -d'$' -f2|grep -v applebot|cut -c1-120|grep \'/edit
+ 1925  grep 10.15 ad93$h*AeFb*|grep Macin|sed 's/resource=/$/g'|cut -d'$' -f2|grep -v applebot|cut -c1-120|sort
+ 2168  grep 10.15 ad93$h*AeFb*|grep Macin|sed 's/resource=/$/g'|cut -d'$' -f2|grep -v applebot|cut -c1-120|sort
+ 2586  grep 10.15 ad93$h*AeFb*|grep Macin|sed 's/resource=/$/g'|cut -d'$' -f2|grep -v applebot|cut -c1-120|sort
+ 1943  grep Ba *H*
+ 2096  grep Nw *H*
+ 2573  grep Q ~/aw9*/Wo*.txt
+ 2572  grep Qs ~/aw9*/Wo*
+ 2701  grep Sd M*
+ 2223  grep qu *H*
+ 2015  gzip -9 recently-used.xbel.DYIKP0
+ 1938  h=7
+ 2017  h=7
+ 2219  h=8
+ 2603  h=9
+ 2575  hi /w
+ 2735  hi /w
+ 1919  hi Ae
+ 2163  hi Ae
+ 2584  hi Ae
+ 2227  hi B
+ 2590  hi B1
+ 1942  hi Ba
+ 2228  hi Ba
+ 2541  hi C
+ 2267  hi Ch
+ 2476  hi Co
+ 2301  hi D
+ 2538  hi D
+ 2552  hi D
+ 2605  hi D
+ 2704  hi D
+ 2396  hi Du
+ 2399  hi Du
+ 1858  hi H
+ 1940  hi H
+ 2079  hi H
+ 2112  hi H
+ 2397  hi H
+ 2767  hi H
+ 2029  hi Hp
+ 2332  hi M
+ 2646  hi M
+ 2333  hi Mi
+ 2647  hi Mi
+ 2095  hi Nw
+ 2618  hi Ra
+ 1779  hi Rec|tail -4
+ 1803  hi S
+ 1835  hi S
+ 1898  hi S
+ 1981  hi S
+ 1983  hi S
+ 2048  hi S
+ 2064  hi S
+ 2092  hi S
+ 2137  hi S
+ 2198  hi S
+ 2285  hi S
+ 2410  hi S
+ 2469  hi S
+ 2598  hi S
+ 2699  hi S
+ 2315  hi S|tail -4
+ 2388  hi T
+ 2416  hi T
+ 2389  hi Te
+ 1824  hi W
+ 2276  hi W
+ 2452  hi W
+ 1825  hi Wo
+ 2162  hi ae
+ 2009  hi ali
+ 2012  hi at0
+ 2338  hi cut
+ 2004  hi cw
+ 1995  hi dev
+ 2574  hi dev
+ 1996  hi dev=
+ 2562  hi du
+ 1954  hi go
+ 1989  hi go
+ 2483  hi go
+ 2208  hi goo
+ 1872  hi ho
+ 1966  hi ho
+ 2032  hi ho
+ 2077  hi ho
+ 2100  hi ho
+ 2173  hi ho
+ 2244  hi ho
+ 2272  hi ho
+ 2381  hi ho
+ 2461  hi ho
+ 2559  hi ho
+ 2652  hi ho
+ 2669  hi l
+ 1769  hi ld
+ 2121  hi ld
+ 2368  hi ld
+ 2557  hi ld
+ 2140  hi lo
+ 2242  hi lo
+ 2297  hi lo
+ 2000  hi loc
+ 2670  hi ly
+ 2231  hi mv
+ 2370  hi mv
+ 2222  hi qu
+ 2236  hi rh
+ 2414  hi rh
+ 2550  hi rh
+ 2463  hi rki
+ 2349  hi rq
+ 2352  hi rq
+ 2402  hi rq
+ 1781  hi rr
+ 2464  hi rr
+ 2667  hi ru
+ 2008  hi sm
+ 1972  hi ta
+ 2290  hi ta
+ 2635  hi tf
+ 2760  hi tf
+ 2581  hi tu
+ 2454  hi um
+ 2456  hi umo
+ 1773  hi wd
+ 2190  hi xc
+ 2621  hi xc
+ 2629  hi xc
+ 2628  hi xl
+ 1776  hi xq
+ 2251  hi xq
+ 1807  his
+ 1993  his
+ 2025  his
+ 2111  his
+ 2119  his
+ 2196  his
+ 2202  his
+ 2204  his
+ 2212  his
+ 2247  his
+ 2266  his
+ 2329  his
+ 2361  his
+ 2373  his
+ 2380  his
+ 2392  his
+ 2540  his
+ 2567  his
+ 2651  his
+ 2690  his
+ 2695  his
+ 2036  https://www.mdr.de/kultur/harry-jeske-tot-100.html
+ 2503  https://www.rubikon.news/artikel/eine-zensur-findet-statt
+ 2366  l=b
+ 2665  la
+ 2367  ld=$ll$l;b=`curl -s $dev/rh/ld$ld|grep TsVz|cut -c7-12`;a=`lynx -dump https://www.tagesschau.de/multimedia/video/video-$b.html|grep webm|cut -c6-`;echo $a;curl $a>~/TsVz/TsVz$ld.mp4;chromium-browser ~/TsVz/TsVz$ld.mp4
+ 1831  ll
+ 1889  ll
+ 1939  ll
+ 1941  ll
+ 2018  ll
+ 2054  ll
+ 2150  ll
+ 2158  ll
+ 2211  ll
+ 2216  ll
+ 2283  ll
+ 2377  ll
+ 2378  ll
+ 2494  ll
+ 2702  ll
+ 2642  ll *19a1*
+ 2641  ll *9a1*
+ 1890  ll *Ts*
+ 2132  ll *aa5*
+ 2153  ll *e0e*
+ 1828  ll WoCh34.bin 
+ 1895  ll at5f3e65cf.TsRss.txt
+ 2139  ll lo
+ 2001  ll ~/.local/share/
+ 2141  ll ~/.local/share/
+ 2243  ll ~/.local/share/
+ 2298  ll ~/.local/share/
+ 1887  ll|more
+ 1906  ll|more
+ 2495  ll|more
+ 2592  ll|more
+ 1880  ls -lS
+ 2109  ls -lS
+ 1957  lynx --dump $a|more
+ 2081  lynx --dump $dev/HpdRss|tac
+ 1789  lynx --dump $dev/curr|more
+ 2465  lynx --dump $dev/curr|more
+ 1846  lynx --dump $dev/iw/WikiPedia/$a|grep 1581
+ 1845  lynx --dump $dev/iw/WikiPedia/$a|more
+ 2041  lynx --dump http://bethanien.de
+ 2042  lynx --dump http://bethanien.de/|more
+ 2264  lynx --dump https://de.wikipedia.org/wiki/Soziale_Plastik|more
+ 2254  lynx --dump https://et.wikipedia.org/wiki/Adriano_Abbado|more
+ 2448  lynx --dump https://www.google.com/search?q=$a|grep tub
+ 1955  lynx --dump https://www.google.com/search?q=$a|more
+ 1990  lynx --dump https://www.google.com/search?q=$a|more
+ 2209  lynx --dump https://www.google.com/search?q=$a|more
+ 2447  lynx --dump https://www.google.com/search?q=$a|more
+ 2484  lynx --dump https://www.google.com/search?q=$a|more
+ 2537  lynx --dump https://www.google.com/search?q=$a|more
+ 2609  lynx --dump https://www.google.com/search?q=$a|more
+ 2611  lynx --dump https://www.google.com/search?q=$a|more
+ 2613  lynx --dump https://www.google.com/search?q=$a|more
+ 2616  lynx --dump https://www.google.com/search?q=$a|more
+ 2659  lynx -d https://www.fastly-insights.com|more
+ 2660  lynx -du https://www.fastly-insights.com|more
+ 2661  lynx -dum https://www.fastly-insights.com|more
+ 2487  lynx -dump $a|more
+ 2502  lynx -dump $a|more
+ 2505  lynx -dump $a|more
+ 2563  lynx -dump $a|more
+ 2671  lynx -dump $a|more
+ 2588  lynx -dump $dev/AtHilde
+ 2589  lynx -dump $dev/AtHilde|more
+ 2184  lynx -dump $dev/iw/WikiPedia/$a|more
+ 2187  lynx -dump $dev/iw/WikiPedia/$a|more
+ 2203  lynx -dump $dev/iw/WikiPedia/$a|more
+ 2206  lynx -dump $dev/iw/WikiPedia/$a|more
+ 2577  lynx -dump $dev/w/$a
+ 2579  lynx -dump $dev/w/$a
+ 2736  lynx -dump $dev/w/$a
+ 2429  lynx -dump $dev/w/PraterBrater|more
+ 2497  lynx -dump $dev/w/SmEph
+ 2576  lynx -dump $dev/w/SmEph
+ 2496  lynx -dump $dev/w/SmePh
+ 2737  lynx -dump $prod/w/$a
+ 2662  lynx -dump https://www.fastly-insights.com|more
+ 1973  lynx -dump https://www.tagesschau.de$a|more
+ 1980  lynx -dump https://www.tagesschau.de$a|more
+ 2104  lynx -dump https://www.tagesschau.de$a|more
+ 2291  lynx -dump https://www.tagesschau.de$a|more
+ 2384  lynx -dump https://www.tagesschau.de$a|more
+ 2082  lynx -nolist --dump $dev/HpdRss|tac
+ 2083  lynx -nolist --dump $dev/HpdRss|tac|rev
+ 1788  lynx -nolist --dump $dev/Q/$a|more
+ 1782  lynx -nolist --dump $dev/curr|more
+ 2035  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2058  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2302  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2304  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2431  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2433  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2435  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2437  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2439  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2508  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 2723  lynx -nolist --dump $dev/iw/DeWikiPedia/$a|more
+ 1792  lynx -nolist --dump $dev/iw/WikiPedia/$a|more
+ 1794  lynx -nolist --dump $dev/iw/WikiPedia/$a|more
+ 1840  lynx -nolist --dump $dev/iw/WikiPedia/$a|more
+ 1842  lynx -nolist --dump $dev/iw/WikiPedia/$a|more
+ 1844  lynx -nolist --dump $dev/iw/WikiPedia/$a|more
+ 2509  lynx -nolist --dump $dev/iw/WikiPedia/$a|more
+ 1774  lynx -nolist --dump $dev/wds/$a
+ 1784  lynx -nolist --dump $dev/wds/$a
+ 1795  lynx -nolist --dump $dev/wds/$a
+ 1798  lynx -nolist --dump $dev/wds/$a
+ 1839  lynx -nolist --dump $dev/wds/$a
+ 1959  lynx -nolist --dump $dev/wds/$a
+ 2176  lynx -nolist --dump $dev/wds/$a
+ 2180  lynx -nolist --dump $dev/wds/$a
+ 2182  lynx -nolist --dump $dev/wds/$a
+ 2215  lynx -nolist --dump $dev/wds/$a
+ 2294  lynx -nolist --dump $dev/wds/$a
+ 2440  lynx -nolist --dump $dev/wds/$a
+ 2442  lynx -nolist --dump $dev/wds/$a
+ 2507  lynx -nolist --dump $dev/wds/$a
+ 2510  lynx -nolist --dump $dev/wds/$a
+ 2514  lynx -nolist --dump $dev/wds/$a
+ 2518  lynx -nolist --dump $dev/wds/$a
+ 2739  lynx -nolist --dump $dev/wds/$a
+ 1800  lynx -nolist --dump $dev/xq/$a
+ 1777  lynx -nolist --dump $dev/xq/$a|more
+ 1786  lynx -nolist --dump $dev/xq/$a|more
+ 1801  lynx -nolist --dump $dev/xq/$a|more
+ 2252  lynx -nolist --dump $dev/xq/$a|more
+ 2445  lynx -nolist --dump $dev/xq/$a|more
+ 2512  lynx -nolist --dump $dev/xq/$a|more
+ 2516  lynx -nolist --dump $dev/xq/$a|more
+ 2532  lynx -nolist --dump $dev/xq/$a|more
+ 2742  lynx -nolist --dump $dev/xq/$a|more
+ 2730  lynx -nolist --dump $prod/iw/DeWikiPedia/$a|grep So
+ 2731  lynx -nolist --dump $prod/iw/DeWikiPedia/$a|grep Soz
+ 2727  lynx -nolist --dump $prod/iw/DeWikiPedia/$a|more
+ 2729  lynx -nolist --dump $prod/iw/DeWikiPedia/$a|more
+ 2740  lynx -nolist --dump $prod/wds/$a
+ 2747  lynx -nolist --dump $prod/wds/$a
+ 2751  lynx -nolist --dump $prod/wds/$a
+ 2755  lynx -nolist --dump $prod/wds/$a
+ 2743  lynx -nolist --dump $prod/xq/$a|more
+ 2746  lynx -nolist --dump $prod/xq/$a|more
+ 2749  lynx -nolist --dump $prod/xq/$a|more
+ 2753  lynx -nolist --dump $prod/xq/$a|more
+ 2757  lynx -nolist --dump $prod/xq/$a|more
+ 2764  lynx -nolist --dump $prod/xq/$a|more
+ 2253  lynx -nolist --dump https://et.wikipedia.org/wiki/Adriano_Abbado|more
+ 2084  lynx -nolist --dump https://hpd.de/artikel/nigeria-saenger-wegen-blasphemie-zum-tode-verurteilt-18373
+ 2085  lynx -nolist --dump https://hpd.de/artikel/nigeria-saenger-wegen-blasphemie-zum-tode-verurteilt-18373|more
+ 2178  lynx -nolist -dump $dev/iw/WikiPedia/$a|more
+ 2040  lynx https://bethanien.de
+ 1970  more +36 at9371788.TsRss.txt|tail -1
+ 2689  more -?
+ 1879  ms
+ 1911  ms
+ 2161  ms
+ 2583  ms
+ 2232  mv -iv ~/TsVz/* /media/xyz/ZincHd/TsVz/
+ 2371  mv -iv ~/TsVz/* /media/xyz/ZincHd/TsVz/
+ 1896  mv at5f3e65cf.TsRss.txt at935bba4.TsRss.txt
+ 1882  mv at9364702.c780f8.ShotPy.png at9364702.c780f8.ShotNullPy.png
+ 2007  mv ~/.local/share/recently-used.xbel.DYIKP0 .
+ 1877  nw
+ 1965  nw
+ 2075  nw
+ 2094  nw
+ 2098  nw
+ 2099  nw
+ 2274  nw
+ 2460  nw
+ 2555  nw
+ 1992  oECAoQAQ&usg=AOvVaw1WRxjtMG9QYPWEOVwxswzp
+ 1815  oc
+ 1837  oc
+ 1859  oc
+ 1862  oc
+ 1871  oc
+ 1952  oc
+ 2067  oc
+ 2348  oc
+ 2471  oc
+ 2535  oc
+ 1962  oc rgb
+ 1892  printf %x $((0x5f3e65cf-at0))
+ 2762  qx1d6a1e
+ 2401  r=4725
+ 2359  rm *
+ 2407  rm *
+ 1830  rm WoCh34.bin
+ 2280  rm WoCh36.txt
+ 1885  rm at5f3ee643.TsRss.txt
+ 2360  rmdir ~/rq$r
+ 2408  rmdir ~/rq$r
+ 2287  rs
+ 2307  rs
+ 1903  sm M*
+ 2200  sm M*
+ 2594  sm M*
+ 1833  sm W*
+ 2320  sm W*
+ 1891  sm at5f3e65cf.TsRss.txt
+ 1883  sm at5f3ee643.TsRss.txt
+ 1884  sm at9364415.TsRss.txt
+ 2011  sm r*
+ 2299  ts
+ 2365  ts
+ 2234  umount /dev/sdc1
+ 2457  umount /dev/sdc1
+ 2458  umount /dev/sdc2
+ 2459  umount /dev/sdd1
+ 1823  w=35
+ 2275  w=36
+ 1790  wiki/Deaths_in_2020
+ 1829  xxd WoCh34.bin 
+ 2622* cb  $a
+ 2037* lynx --dump https://www.mdr.de/kultur/harry-jeske-tot-100.html|more df
