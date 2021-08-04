@@ -1,0 +1,500 @@
+   35  export dev=https://floatingboat2013.appspot.com
+   36  ll
+   37  lsll
+   38  ll
+   39  mv -iv web.log adac8.web.log
+   40  hi no
+   41  nohup ./caddy start&
+   42  curl knot-net.appspot.com/rh/CatLin
+   43  vi CatLinSchnuefff.txt
+   44  #vi CatLinSchnuefff.txt
+   45  curl sl4.eu
+   46  curl https://sl4.eu/1
+   47  curl https://sl4.eu/1|sm
+   48  curl https://sl4.eu/1|sha256sum 
+   49  curl https://sl4.eu/GruTube
+   50  surf https://sl4.eu/GruTube
+   51  curl floatingboat2013.appspot.com/rh/GruTube
+   52  curl sl4.eu/rh/GruTube
+   53  curl https://sl4.eu/rh/GruTube
+   54  curl https://sl4.eu/GruTube
+   55  curl https://sl4.eu/GruTube|more
+   56  df
+   57  #CarreraKai!:0714
+   58  #CarreraKai!:0714
+   59  df
+   60  die admir:ale meiner armee stehen
+   61  #die admir:ale meiner armee stehen
+   62  cr
+   63  cd web
+   64  ls
+   65  ls ab
+   66  cd ab
+   67  cat ~/noe
+   68  alias hi='history|grep $1'
+   69  alias his=history
+   70  alias ll='ls -alF'
+   71  alias sm=sha256sum
+   72  export at0=0x5608aa2b
+   73  PATH=/opt/riscv/bin:$PATH
+   74  export dev=https://floatingboat2013.appspot.com
+   75  ./ab
+   76  ./ab
+   77  ./ab l FfFe
+   78  ./ab was schaetzt Ihr
+   79  ./ab insbesondere Ihr AmAb-s
+   80  ./ab w:uerdet Ihr im VerteigungsFall[=#qxQ2518552]
+   81  ./ab printf %x 2518552
+   82  printf %x 2518552
+   83  ./ab qx266e18 VauFall
+   84  ./ab Eure h:o
+   85  ./ab Eure h:ochste geschwindigkeit in meter pro sekunde auf einer AutoBahn war...?
+   86  ./ab frage an meine SaufKumpane: Eure h:ochste geschwindigkeit in meter pro sekunde auf einer AutoBahn war...?
+   87  ./ab NachObenSpielen vorn
+   88  ./ab TOOOOR
+   89  df
+   90  ll ~
+   91  date
+   92  utime
+   93  uptime
+   94  ./ab JubiJute
+   95  ./ab mein vetter war fleissig
+   96  ./ab BestPw
+   97  his
+   98  hi H
+   99  hi H#https://songdata.io/track/7e9HQkv55VaiiTZhWZSKWC/Durch-den-Monsun-by-Julian-Roman-Wasserfuhr-Donny-McCaslin-Tim-Lefebvr
+  100  ./ab der neue ComingInAge roman
+  101  m=WannIstEinMenschEinMann?
+  102  ./ab DemBerndSeinBlob
+  103  ./ab XXX-YS142?
+  104  ./ab MMA MartianArt BadSaarow
+  105  ./ab VierMalVierTagesWoche
+  106  cr
+  107  #./ab VierMalVierTagesWoche
+  108  vi
+  109  ./ab VierMalVierTagesWoche
+  110  ./ab l FfFe
+  111  ./ab VierMalVierTagesWoche
+  112  ./ab VierMalVierTageWoche?
+  113  sm a*
+  114  adacb.txt
+  115  ./ab sm 7e051d89e3a500b4ee17b5b08a44035685887ea1762847cc0aebe18624cbd9d4 adacb.txt
+  116  date
+  117  ./ab VerBiss
+  118  ./ab LassLos
+  119  vi
+  120  ./ab vetter markus war fleissig: https://www.schuetzen-wipperfeld.de/
+  121  ./ab PeakZopf
+  122  ./ab DARK
+  123  ./ab DORK
+  124  ./ab LinIn
+  125  ./ab atacc61e6 ab ich kommuniziere Du kommunizierst
+  126  df
+  127  ab IschAbeGarKeinWhatsApp
+  128  ab PoTs? AbSchalten
+  129  ./ab IschAbeGarKeinWhatsApp
+  130  ./ab PoTs? AbSchalten
+  131  ./ab die machen EinFach weiter
+  132  ./ab die fragen nicht nach SuesChen
+  133  ./ab AllesBleibtWieImmer
+  134  ./ab SENATOR
+  135  ce LinIn
+  136  wget https://download.digitale-sammlungen.de/pdf/16245818178888bsb10717606.pdf
+  137  #DRIN!
+  138  cat noe
+  139  alias hi='history|grep $1'
+  140  alias his=history
+  141  alias ll='ls -alF'
+  142  alias sm=sha256sum
+  143  export at0=0x5608aa2b
+  144  PATH=/opt/riscv/bin:$PATH
+  145  export dev=https://floatingboat2013.appspot.com
+  146  cd web/ab
+  147  ./ab heute ueben
+  148  ./ab heute :uben?
+  149  ./ab heute ueben wir: leben ohne WhatsApp
+  150  ls
+  151  pwd
+  152  #DuMp3131?
+  153  ./ab DuMp3131?
+  154  ./ab l FfFe
+  155  export
+  156  curl $dev/rh/PxId>PxId.txt
+  157  sort PxId.txt
+  158  sort PxId.txt|more
+  159  sort PxId.txt|wc
+  160  cr
+  161  ./ab ich bekenne: der thrill meines lebens: prokrastinieren im ... von finanzamtfristen
+  162  hi G
+  163  #hi G
+  164  #https://twitter.com/f_karig/status/1408339579741081604 19 14 56-42 34 11
+  165  ./ab https://twitter.com/f_karig/status/1408339579741081604 19 14 56-42 34 11 via JuRo
+  166  ./ab hi adacd
+  167  ./ab l FfFe
+  168  ./ab https://twitter.com/f_karig/status/1408339579741081604 19 14 56-42 34 11 via JuRo
+  169  sm a*
+  170  ./ab sm bb89fabf733578c8079c64da09a8d0d09927745bb42c646636e2aa1a5adbb428  adacc.txt
+  171  ./ab sm 3424bf5a844d29154a17fecaedd3c3f1ee7cf2e03b7ac5bbefb1234dcfd86e47  MinTyAdacc.txt
+  172  #./ab sm 3424bf5a844d29154a17fecaedd3c3f1ee7cf2e03b7ac5bbefb1234dcfd86e47  MinTyAdacc.txt
+  173  declare -x aw="ac"
+  174  declare -x aw=ac
+  175  declare -x ld="4a4e"
+  176  declare -x ld=4a4e
+  177  declare -x at0=0x5608aa2b
+  178  echo $at0
+  179  printf %x 2086485
+  180  ./ab printf %x 2086485
+  181  ./ab qx1fd655 FilTaegert
+  182  ./ab der fachbegriff f:ur GrauWasser das sich noch zum giessen von zimmerlinden
+  183  ./ab der fachbegriff f:ur GrauWasser das sich zum giessen von zimmerlinden taugt ist :ubrigens GruenWasser
+  184  ./ab der fachbegriff f:ur GrauWasser das noch zum giessen von zimmerlinden taugt ist :ubrigens GruenWasser
+  185  ./ab der fachbegriff f:ur GrauWasser das noch zum giessen von zimmerlinden taugt ist :ubrigens Gr:unWasser?
+  186  w=bodhi
+  187  ./ab DuBistDran
+  188  ./ab SchoenBerg
+  189  ./ab HOMUNCULUS
+  190  ./ab ZauberKueche
+  191  ./ab HexenKueche
+  192  ./ab FrankenStein
+  193  ./ab FranckenStein?
+  194  echo $l
+  195  ./ab WahlKapsel?
+  196  cr
+  197  #nw
+  198  curl $dev/rh/awac|more
+  199  df
+  200  ./ab es soll rein digital sein
+  201  ped
+  202  pws
+  203  pwd
+  204  alias ab=/root/web/ab/ab
+  205  ab alias ab=/root/web/ab/ab
+  206  ab die grunderfahrung:
+  207  ab eine zeile eingeben
+  208  ab und sehen was der ComPuter
+  209  ab damit macht
+  210  ab viel besser als clicken
+  211  ab ZeileFuerZeile
+  212  ab "ab" ist dabei nur ein kommentar
+  213  ab geschwafel rund ums eingemachte
+  214  ab 4RaLi
+  215  ab was von unten hoch kommt
+  216  ab ein explizites
+  217  ab PyramidenSchema
+  218  ab ein intendiertes
+  219  ab VierMalVier
+  220  ab 4gewinnt
+  221  ab AdmiralBruecke is the new BergHain
+  222  vi adacd.txt 
+  223  ab AdmiralBruecke is the new BergHain
+  224  #AdmiralBruecke is the new BergHain
+  225  wget http://www.buergerbus-wipperfuerth.de/aktuelles/2019/wasserfuhr2.jpg
+  226  #wget http://www.buergerbus-wipperfuerth.de/bilder/fahrer/wasserfuhr.jpg 
+  227  wget http://www.buergerbus-wipperfuerth.de/bilder/fahrer/wasserfuhr.jpg
+  228  wget http://www.buergerbus-wipperfuerth.de/bilder/kopf_anim.gif
+  229  ab SchreckenEinGeJagd
+  230  ab SchreckenEinGeJagt??
+  231  ab Du soll ich Du sagen?
+  232  ab ich wx3
+  233  ab wer wx1 und wx2 lass ich offen
+  234  sm kopf_anim.gif
+  235  ab gelaehmt
+  236  ab KuBi
+  237  ab und schon da geht mir fast das messer im s... auch
+  238  ab und schon da geht mir fast das messer im s... auf
+  239  ab versemmelt
+  240  ab aber nicht hoffnungslos
+  241  ab klar auch der alte adenauer liess alle w:ahlen
+  242  ab klar auch der alte adenauer liess alle waehlen
+  243  ab wenn nicht GeHeim
+  244  ab wie die oberen wollen
+  245  ab und deshalb lassen wir ALLE waehlen
+  246  ab nicht nur in DeitschLand
+  247  ab DieMachenMitUnsWattSeWollen
+  248  ab muesst Ihr an einen ort gehen
+  249  ab an dem insgesamt mindestens vier mal vier
+  250  ab also sechzehn waehlende sind
+  251  ab die waehlen dann
+  252  ab und das wird so gut wie MoegLich GeHeim
+  253  curl https://floatingboat2013.appspot.com/v/HalloRalf>~/web/v/HalloRalf.html
+  254  ab PaulaTrust
+  255  ab da werden
+  256  ab wenn ErFolg
+  257  ab also so leute wie
+  258  ab BaerChen
+  259  ab oder
+  260  ab ArLas
+  261  ab kommen und gewaehlt wollen werden
+  262  ab und darauf wollen wir
+  263  ab vorbereitet sein
+  264  ab bestens
+  265  cr
+  266  his
+  267  history 
+  268  alias ab=/root/web/ab/ab
+  269  cat ex
+  270  ls
+  271  cat noe
+  272  alias hi='history|grep $1'
+  273  alias his=history
+  274  alias ll='ls -alF'
+  275  alias sm=sha256sum
+  276  export at0=0x5608aa2b
+  277  PATH=/opt/riscv/bin:$PATH
+  278  export dev=https://floatingboat2013.appspot.com
+  279  cd web/ab
+  280  ab l FfFe
+  281  ab /pnyx
+  282  ab #CnFoo MutProbe des tages: RoteBeeteSaft trinken
+  283  nw
+  284  ab #CnFoo https://de.wikipedia.org/wiki/Triggerwarnung
+  285  ab #CnFoo https://de.wikipedia.org/wiki/Triggerwarnung
+  286  ab l FfFe
+  287  ab #CnFoo https://de.wikipedia.org/wiki/Triggerwarnung
+  288  sm a*
+  289  ab sm af4d1f2c19398e71ecc74403880fde983d601abb3359f4ddd2c03f60b15c92b3  adacd.txt
+  290  ab die useability meiner HomePage ist derzeit f:ur exact 2 menschen ausser mir optimiert- wer will noch? ;)
+  291  ab die useability meiner HomePage ist derzeit f:ur exact 2 menschen ausser mir optimiert- wer will noch? ;\)
+  292  ab 4px2 bin am hafen- WachPoke please\!
+  293  ab m:ochte JeMand mit mir ein GdPr compliantes SocialNetwork on top of 1nce bauen?
+  294  ab DenkenStattHandeln
+  295  ab ShotWeWa
+  296  ab l FfFe
+  297  ab der k:onig bin zwangsl:aufig ich
+  298  ab keine wollte es vorher machen
+  299  ab und eine muss es ja schliesslich tun
+  300  ab ShotKnobLauch
+  301  ab BeeNet
+  302  ab WiderSpruch zwecklos
+  303  ab wer mit mir im bett war
+  304  ab muss auch noch andere opfer aushalten ;\)
+  305  ab kann auch noch andere opfer aushalten ;\)
+  306  ab ShotSchoenBerg
+  307  nw
+  308  df
+  309  uptime
+  310  printf %x Q1172506
+  311  printf %x 1172506
+  312  #abprintf %x 1172506
+  313  ab printf %x Q1172506
+  314  ab printf %x 1172506
+  315  printf %x 1172506
+  316  ab qx11e41a GdPr
+  317  ce TrQxa
+  318  ab schaun Sie
+  319  ab hier trocken wir unser urin
+  320  ab ...
+  321  ab und hier kommt es in die h:ulsen
+  322  ab SuafKumpane SlowTiger
+  323  ab CORR
+  324  ab SaufKumpane SlowTiger
+  325  ab https://vimeo.com/333837958
+  326  ab nich zu viel nichhermetisches- @agnesw hat bald geburtstag und kuckt bestimmt t:aglich
+  327  his
+  328  hi aw
+  329  curl $dev/rh/awac|more
+  330  ab langj:ahriges fdp-stimmvieh betritt gr:unes FreiLand
+  331  ab langjaehriges fdp-stimmvieh betritt gruenes FreiLand
+  332  ab langjaehriges fdp-stimmvieh betritt gruenes FreiLand
+  333  ab ShotSemperDevil
+  334  df
+  335  ab CodAl\!
+  336  his
+  337  hi ati
+  338  curl $dev/atime
+  339  ls
+  340  #his>atace7905.05xa82fc.6652cf5d.NoeHis.txt
+  341  #PreReBoot
+  342  his>atace7905.05xa82fc.6652cf5d.NoeHis.txt
+  343  more atace7905.05xa82fc.6652cf5d.NoeHis.txt
+  344  #             #
+  345  reboot
+  346  ls
+  347  mv -iv web.log adacd.web.log
+  348  history|grep no
+  349  nohup ./caddy start&
+  350  #wenn "fr:uher abend" nach :1800 bedeutet, w;urde mir dies schon eine stunde planungssicherheit schenken ;) #spnk
+  351  cat noe
+  352  alias hi='history|grep $1'
+  353  alias his=history
+  354  alias ll='ls -alF'
+  355  alias sm=sha256sum
+  356  export at0=0x5608aa2b
+  357  PATH=/opt/riscv/bin:$PATH
+  358  export dev=https://floatingboat2013.appspot.com
+  359  cat aw
+  360  hi ah
+  361  hi aw
+  362  curl $dev/rh/awac|more
+  363  ab direct massages sind voellig deprecated
+  364  hi alias
+  365  alias ab=/root/web/ab/ab
+  366  cd web/ab
+  367  ab direct massages sind voellig deprecated
+  368  ab ich habs schon mehrmals getweetet
+  369  ab direct massages sind bei mir voellig deprecated
+  370  ab FreyLand?
+  371  cat noe
+  372  alias hi='history|grep $1'
+  373  alias his=history
+  374  alias ll='ls -alF'
+  375  alias sm=sha256sum
+  376  export at0=0x5608aa2b
+  377  PATH=/opt/riscv/bin:$PATH
+  378  export dev=https://floatingboat2013.appspot.com
+  379  ce web/ab
+  380  cd web/ab
+  381  ab
+  382  hi al
+  383  alias ab=/root/web/ab/ab
+  384  ab
+  385  sm a*
+  386  dc1bb8e972c153ffb123d61bc99f3eff3357535dd0ccae05fb564fbdc2a52b15  adace.txt
+  387  ab sm dc1bb8e972c153ffb123d61bc99f3eff3357535dd0ccae05fb564fbdc2a52b15  adace.txt
+  388  ab l DbBro
+  389  ab ein LIKE zut gar nicht WEH und gibt zumindest dem gelikedten das GeFuehl gesehen worden zu sein
+  390  ab ein LIKE tut gar nicht weh und gibt zumindest dem gelikedten das sichere GeFuehl gesehen worden zu sein
+  391  ab printf %x 2016458
+  392  printf %x 2016458
+  393  ab qx1ec4ca WippOhl
+  394  ab qx1ec4ca WippOhl
+  395  ab Q56010
+  396  ab 28005 14002 7001
+  397  ab 3500 1750 875 437
+  398  ab 218 109 54 27
+  399  ab 13 6 3 1
+  400  ab 1101 1010 1100 1010
+  401  ab qxdaca
+  402  cb xq/daca
+  403  ab DaCa
+  404  ab DavidCameron=AngMo+1+1
+  405  ab Q192
+  406  ab 160+32
+  407  ab qxa2 CORR
+  408  ab qxc0
+  409  TrQx0
+  410  #TrQx0
+  411  ab UndWasMachenWirMitXing?
+  412  ab XingIstTot- hier gehts lang: https://social.tchncs.de/@rawa
+  413  ab da haetten wir doch fast den GeburtsTag von AlanTuring=[qx1c53] vergessen: https://sl4.eu/MoAxa
+  414  exit
+  415  cat noe
+  416  alias hi='history|grep $1'
+  417  alias his=history
+  418  alias ll='ls -alF'
+  419  alias sm=sha256sum
+  420  export at0=0x5608aa2b
+  421  PATH=/opt/riscv/bin:$PATH
+  422  export dev=https://floatingboat2013.appspot.com
+  423  ab
+  424  his
+  425  hi ab
+  426  alias ab=/root/web/ab/ab
+  427  cd web/ab
+  428  ab MusikStunde: setz Dich an Deinen SteinWay und spiele aca - ZuFallOderBeetHoven?
+  429  ab l DbBro
+  430  ab MusikStunde: ZuFallOderBeetHoven?: setz Dich an Deinen SteinWay und spiele acaccdgfefe mit ca 3 ansch_agen pro sekunde- wer schuf es?
+  431  ab MusikStunde: ZuFallOderBeetHoven?: setz Dich an Deinen SteinWay und spiele acacacdgfefe mit ca 3 ansch_agen pro sekunde- wer schuf es?
+  432  ab Q28937399
+  433  ab TriBy GiselaBjoern
+  434  ab neuer sonntagmorgendenksport: lyrics reverseengineering: ich hab ein haus ein... und ein... OhneGoogle selbstredend 
+  435  ab #CnFoo OhrWorm neuer sonntagmorgendenksport: lyrics reverseengineering ausm kopf: dreimaldrei macht neun ... ich hab ein haus ein ... und ein ... OhneGoogle selbstredend 
+  436  his
+  437  ab aber eigentlich teile so zeuch
+  438  ab machen wirs so?: Du bekommst meine einladung zum SpielDesJahres erst nachdem die elstereingangsbest:atigungsmail \(gibts die noch?\) in deiner InBox ist
+  439  ab machen wirs so?: Du bekommst meine einladung zum SpielDesJahres erst nachdem die elstereingangsbest:atigungsmail \(gibts die noch?\) in Deiner InBox ist
+  440  ab machen wirs so?: Du bekommst meine einladung zum SpielDesJahres erst nachdem die elstereingangsbest:atigungsmail \(gibts die noch?\) in Deiner InBox ist
+  441  ab ein terminus dessen bedeutung Sie als altlateiner weitaus besser ableiten koennen
+  442  ab prokrastinieren
+  443  ab Ohnegoogle: kennt zuf:allig von Euch JeMand die frist f:ur der anzeige einer ordnungswidrigkeit "parken auf fahrradweg"?
+  444  ab AnWaltOhneGoogle: kennt zuf:allig von Euch JeMand die frist f:ur die anzeige einer ordnungswidrigkeit "parken auf fahrradweg"?
+  445  ab KontakteSammler
+  446  ab ClueTrain
+  447  ab kennt Ihr journalist:innen die schon mal zu WolfgangHuellen recherchiert haben?
+  448  ab DarkPower
+  449  ab SiriusGame
+  450  ab wenn Du nich mit den dunklen m:achten fickst ficken se Dich
+  451  l=SalomeBar
+  452  ab NordicMan\!
+  453  ab Q647070
+  454  ab printf %x 647070
+  455  printf %x 647070
+  456  ab qx9df9e ClaraVallis
+  457  ab MerkKette
+  458  ab MerKette
+  459  ab MerKett
+  460  ab BeeNet
+  461  ab ein lexikon :uber korruption in der cdu- auf wieviele seiten w:urdet Ihr das anlegen?
+  462  exit
+  463  ls
+  464  ls web
+  465  ls w
+  466  scp -prv arch@sl4.eu:/home/arch/w .
+  467  df
+  468  ll w
+  469  du w
+  470  cb
+  471  exit
+  472  df
+  473  ps aux
+  474  ls
+  475  ./redbean.com -v
+  476  ./redbean.com -?
+  477  file ./redbean.com
+  478  wget redbean.dev/redbean-1.4.com
+  479  #wget redbean.dev/redbean-1.4.com
+  480  file ./redbean-1.4.com
+  481  ./redbean-1.4.com -v
+  482  ./redbean-1.4.com -?
+  483  chmod +x ./redbean-1.4.com
+  484  ./redbean-1.4.com -?
+  485  pwd
+  486  ls
+  487  ls -l
+  488  ll r
+  489  ll w
+  490  cat noe
+  491  alias hi='history|grep $1'
+  492  alias his=history
+  493  alias ll='ls -alF'
+  494  alias sm=sha256sum
+  495  export at0=0x5608aa2b
+  496  PATH=/opt/riscv/bin:$PATH
+  497  export dev=https://floatingboat2013.appspot.com
+  498  ll w
+  499  ll web
+  500  clear
+  501  passwd
+  502  history
+  503  cat noe
+  504  alias hi='history|grep $1'
+  505  alias his=history
+  506  alias ll='ls -alF'
+  507  alias sm=sha256sum
+  508  export at0=0x5608aa2b
+  509  PATH=/opt/riscv/bin:$PATH
+  510  export dev=https://floatingboat2013.appspot.com
+  511  hi ss
+  512  hi ssh
+  513  ping y.sl4.eu
+  514  #ab PutinS
+  515  alias
+  516  ab
+  517  ps aux
+  518  #ab db 074 177 
+  519  #ab db 074 177 
+  520  #ExVerb
+  521  #SuesChen
+  522  #SuesChen
+  523  #der schoene KoerteCai im OrtsTeil KreuzBerg der HauptStadt ist im Internet\!/\!/
+  524  #UberVoll
+  525  #LeastCon
+  526  #SpachLarm
+  527  #http://peter-jamin.de/gendern-auf-teufelin-komm-raus/?fbclid=IwAR1Ogg5SWnLcTrB-5oXkICEAg786AGJgVC6ReNOAp0dRZwoGuAgYabJDcmo
+  528  hi H
+  529  hi kn
+  530  curl knot-net.appspot.com/rh/CatLin
+  531  curl knot-net.appspot.com/atime
+  532  #atb027405.29xa97ce.bc02c2c4 
+  533  #his>atb027405.29xa97ce.bc02c2c4.NoeHist.txt 
+  534  his>atb027405.29xa97ce.bc02c2c4.NoeHist.txt 
